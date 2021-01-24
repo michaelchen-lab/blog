@@ -41,9 +41,9 @@ const Layout = ({children}) => {
 const DesktopNav = () => {
     return (
         <div className="items-center hidden ml-auto md:flex">
-            <DesktopNavItem to="/" name="Portfolio" />
-            <DesktopNavItem to="/" name="Blog" />
-            <DesktopNavItem to="/" name="Contact" />
+            <DesktopNavItem to="/blog" name="Blog" />
+            <DesktopNavItem to="/projects" name="Projects" />
+            <DesktopNavItem to="/about" name="About" />
         </div>
     )
 }
@@ -83,9 +83,9 @@ const MobileNavMenu = ({ isOpen }) => {
 
     return (
         <div className="fixed z-10 flex flex-col items-center min-h-screen min-w-full bg-white bg-opacity-50 md:hidden">
-                <MobileNavItem to="/" name="Portfolio" />
-                <MobileNavItem to="/" name="Blog" />
-                <MobileNavItem to="/" name="Contact" />
+                <MobileNavItem to="/blog" name="Blog" />
+                <MobileNavItem to="/projects" name="Projects" />
+                <MobileNavItem to="/about" name="About" />
         </div>
     )
 }
