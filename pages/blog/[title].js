@@ -21,7 +21,7 @@ const Post = ({postData}) => {
                     </article>
 
                     <footer>
-                        <a href="/blog" className="font-semibold text-blue-500">&lt;&lt; View all posts</a>
+                        <a href="/blog" className="font-semibold text-blue-500 pb-10">&lt;&lt; View all posts</a>
                     </footer>
                 </div>
             </main>

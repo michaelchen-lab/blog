@@ -14,7 +14,7 @@ You can use Static Generation for many types of pages, including:
 * Help and documentation
 
 ```javascript
-let x = 1
+let x = 20
 let y = 2
 
 const add = (num1, num2) => {

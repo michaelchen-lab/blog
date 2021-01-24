@@ -2,8 +2,10 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-import remark from 'remark'
+import unified from 'unified'
+import markdown from 'remark-parse'
 import html from 'remark-html'
+import highlight from 'remark-highlight.js'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
@@ -56,7 +58,9 @@ const getPostData = async (title) => {
     const matterResult = matter(fileContents)
 
     // Use remark to convert markdown into HTML string
-    const processedContent = await remark()
+    const processedContent = await unified()
+        .use(markdown)
+        .use(highlight)
         .use(html)
         .process(matterResult.content)
     const contentHTML = processedContent.toString()

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import '../styles/globals.css'
+import '../styles/hljsTheme.css'
 import Link from 'next/link'
 
 function MyApp({ Component, pageProps }) {
