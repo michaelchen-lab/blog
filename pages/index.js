@@ -18,8 +18,8 @@ const Home = () => {
                         <div className="col-span-1 md:col-span-4">
                             <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-600 mt-8">
-                                I'm Michael Chen, currently a high school student from Singapore.
-                                My goal is to build solutions for people with web development
+                                I'm Michael Chen, a high school student from Singapore.
+                                My goal is to create socially good solutions using web development
                                 and data science.
                             </p>
 
@@ -54,9 +54,8 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
-                                I am currently working on the very website you are reading right now.
-                                I intend to start working on CodeTinder, a platform that helps developers
-                                find code buddies, mentors or mentees.
+                                I am part of an academic research team studying ad-blocking from a publicher's perspective.
+                                Also, I am starting a personal project to help developers find code buddies, mentors or mentees.
                             </SectionDescription>
                         </Section>
                         <Section>
@@ -78,7 +77,7 @@ const Home = () => {
                 </div>
             </main>
 
-            <footer>
+            <footer className="pb-10">
             </footer>
         </>
     )
@@ -88,7 +87,7 @@ export default Home
 
 const Section = ({ children }) => {
     return (
-        <div className="col-span-1 md:col-span-3 md:pt-10">
+        <div className="col-span-1 md:col-span-3 md:pt-4">
             { children }
         </div>
     )
