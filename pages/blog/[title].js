@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { getAllPostTitles, getPostData } from '../../utils/posts'
 import { Date } from '../../components/ui'
 
@@ -21,7 +22,9 @@ const Post = ({postData}) => {
                     </article>
 
                     <footer>
-                        <a href="/blog" className="font-semibold text-blue-500 pb-10">&lt;&lt; View all posts</a>
+                        <Link href="/blog">
+                            <p className="font-semibold text-blue-500 pb-10 cursor-pointer">&lt;&lt; View all posts</p>
+                        </Link>
                     </footer>
                 </div>
             </main>
