@@ -31,7 +31,7 @@ const Layout = ({children}) => {
                         <DesktopNav />
                         <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
                     </div>
-                    <MobileNavMenu isOpen={isOpen} />
+                    <MobileNavMenu isOpen={isOpen} setIsOpen={setIsOpen} />
                 </header>
                 <main>{children}</main>
             </div>
@@ -79,11 +79,12 @@ const MobileNav = ({ isOpen, setIsOpen }) => {
     )
 }
 
-const MobileNavMenu = ({ isOpen }) => {
+const MobileNavMenu = ({ isOpen, setIsOpen }) => {
     if (!isOpen) return <h1></h1>
 
     return (
-        <div className="fixed z-10 flex flex-col items-center min-h-screen min-w-full bg-white bg-opacity-50 md:hidden">
+        <div className="fixed z-10 flex flex-col items-center min-h-screen min-w-full bg-white bg-opacity-70 md:hidden border-b-2 border-gray-500"
+            onClick={() => setIsOpen(false)}>
                 <MobileNavItem to="/blog" name="Blog" />
                 <MobileNavItem to="/projects" name="Projects" />
                 <MobileNavItem to="/about" name="About" />
@@ -94,8 +95,8 @@ const MobileNavMenu = ({ isOpen }) => {
 const MobileNavItem = ({ to, name }) => {
     return (
         <Link href={to}>
-            <div className="bg-white min-w-full text-center py-2">
-                <a className="text-sm text-gray-600 hover:text-black">{name}</a>
+            <div className="bg-white min-w-full text-center py-2 border-b">
+                <a className="text-sm text-gray-600">{name}</a>
             </div>
         </Link>
     )
