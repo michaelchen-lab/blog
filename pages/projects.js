@@ -13,12 +13,13 @@ const Projects = () => {
                     <h1 className="text-5xl font-semibold">Projects</h1>
                     <section>
                         <p className="text-lg mt-6">
-                            My most recent project is <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>, which is done as part of my internship at AISG.
+                            My most recent project is <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>,
+                            which is done as part of my internship at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>.
                             MenuCarlo helps F&B owners optimize their menu using their historical transactions data.
                         </p>
                         <p className="text-lg mt-2">
                             Previously, I worked on <TextLink to="https://github.com/michaelchen-lab/fastdash">FastDash</TextLink>, an end-to-end dashboard builder designed for rapid
-                            visualization and easy sharing. This is my final project for CS50W.
+                            visualization and easy sharing. This is my final project for <TextLink to="https://cs50.harvard.edu/web/2020/">CS50W</TextLink>.
                         </p>
                     </section>
                     <section>
@@ -36,7 +37,7 @@ const Projects = () => {
                         </div>
                     </section>
                     <section>
-                        <h2 className="text-xl font-semibold">Previous Projects</h2>
+                        <h2 className="text-xl font-semibold">Other Projects</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 items-center min-w-full mt-2 px-4 py-4 gap-4">
                             <OtherProject name="Personal Site" to="https://github.com/michaelchen-lab/blog" />
                             <OtherProject name="SEAT" to="https://github.com/michaelchen-lab/seat" />

@@ -1,0 +1,7 @@
+Text: [M]
+Background: Rounded (doesn't matter)
+Font Family: Ubuntu
+Font Size: 94
+
+Font Color: #00F
+Background Color: #ffffff00

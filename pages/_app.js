@@ -24,8 +24,8 @@ const Layout = ({children}) => {
                 <header className="container mx-auto max-w-7xl">
                     <div className="flex pt-6 pb-4 px-6 border-b">
                         <Link href="/">
-                            <a className="font-serif text-base md:text-xl lg:text-2xl">
-                                MICHAEL<span className="font-bold">CHEN</span>
+                            <a className="font-mono text-xl md:text-xl lg:text-2xl" style={{color: '#00F'}}>
+                                &#60;MichaelChen /&#62;
                             </a>
                         </Link>
                         <DesktopNav />

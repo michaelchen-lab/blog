@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Head>
                 <title>Michael Chen</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon/favicon.ico" />
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Head>
 
@@ -19,8 +19,8 @@ const Home = () => {
                             <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-600 mt-8">
                                 I'm Michael Chen, a high school student from Singapore.
-                                My goal is to create socially good solutions using web development
-                                and data science.
+                                I build open-source apps and conduct business-related research
+                                using web development and data science.
                             </p>
 
                             <div className="flex flex-row mt-8">
@@ -54,8 +54,8 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
-                                I am part of an academic research team studying ad-blocking from a publicher's perspective.
-                                Also, I am starting a personal project to help developers find code buddies, mentors or mentees.
+                                I am part of an academic research team studying ad-blocking from a publisher's perspective.
+                                Also, I am starting a personal project to help developers find code buddies, mentors and mentees.
                             </SectionDescription>
                         </Section>
                         <Section>

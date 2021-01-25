@@ -3,9 +3,20 @@ import { parseISO, format } from 'date-fns'
 
 const TextLink = ({to, children}) => {
     return (
-        <Link href={to}>
-            <a className="text-blue-500 hover:underline">{children}</a>
-        </Link>
+        <>
+            { (to.includes('http')) ? (
+                // External links: Open in new tab
+                <a
+                    className="text-blue-500 hover:underline"
+                    href={to} target="_blank"
+                >{children}</a>
+            ) : (
+                // Internal links: Open in current tab
+                <Link href={to}>
+                    <a className="text-blue-500 hover:underline">{children}</a>
+                </Link>
+            )}
+        </>
     )
 }
 
