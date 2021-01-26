@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import '../styles/globals.css'
 import '../styles/hljsTheme.css'
+import '../styles/unreset.css'
 import Link from 'next/link'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
