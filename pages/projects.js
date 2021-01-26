@@ -6,13 +6,13 @@ const Projects = () => {
     return (
         <>
             <Head>
-                <title>Michael Chen | Projects</title>
+                <title>Projects | Michael Chen</title>
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <h1 className="font-serif text-5xl font-semibold">Projects</h1>
                     <section className="mt-8">
-                        <SectionTitle to="/blog/menucarlo" name="MenuCarlo" />
+                        <SectionTitle to="/blog" name="MenuCarlo" />
                         <p className="text-lg mt-2">
                             Data is the new oil. Yet small F&B businesses fail to harness their data's potential
                             due to lack of manpower and expertise. This project aims to
@@ -22,7 +22,7 @@ const Projects = () => {
                             As part of my internship at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>, we created <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>
                              , an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions.
                         </p>
-                        <SectionTitle to="/blog/fastdash" name="FastDash" />
+                        <SectionTitle to="/blog" name="FastDash" />
                         <p className="text-lg mt-2">
                             Most people rely on Excel to create dashboards. But sharing with others is cumbersome,
                             since the whole file must be sent via email. And Excel's graph are not visually appealing by default.

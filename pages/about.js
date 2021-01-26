@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <Head>
-                <title>Michael Chen | About</title>
+                <title>About | Michael Chen</title>
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">

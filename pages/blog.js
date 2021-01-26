@@ -8,7 +8,8 @@ const Blog = ({ allPostsData }) => {
     return (
         <>
             <Head>
-                <title>Michael Chen | Blog</title>
+                <title>Blog | Michael Chen</title>
+                <meta name="description" content="Find out about web development, data science and econometrics, amongst other things." />
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
