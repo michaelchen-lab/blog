@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Head>
                 <title>Michael Chen</title>
-                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
             </Head>
 
             <main>
@@ -28,7 +28,7 @@ const Home = () => {
                                         className="flex items-center text-gray-600 font-semibold"
                                         href="https://github.com/michaelchen-lab"
                                     >
-                                        <img className="h-4 mr-2" src="/github-icon.svg"/>
+                                        <img className="h-4 mr-2" src="/github-icon.svg" width="20"/>
                                         <span>Github</span>
                                     </a>
                                 </div>
@@ -37,16 +37,14 @@ const Home = () => {
                                         className="flex items-center text-gray-600 font-semibold"
                                         href="https://www.linkedin.com/in/michael-chen-kj/"
                                     >
-                                        <img className="h-4 mr-2" src="/linkedin-icon.svg"/>
+                                        <img className="h-4 mr-2" src="/linkedin-icon.svg" width="20"/>
                                         <span>LinkedIn</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-span-1 md:col-span-2 mx-auto">
-                            <img
-                                src="/avatar.png"
-                                alt="Michael's Avatar"
+                            <img src="/avatar.png" alt="Michael's Avatar" width="220"
                             />
                         </div>
 

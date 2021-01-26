@@ -16,7 +16,7 @@ const About = () => {
                                 className="flex items-center text-gray-600 font-semibold"
                                 href="https://github.com/michaelchen-lab"
                             >
-                                <img className="h-4 mr-2" src="/github-icon.svg"/>
+                                <img className="h-4 mr-2" src="/github-icon.svg" width="20"/>
                                 <span>Github</span>
                             </a>
                         </div>
@@ -25,7 +25,7 @@ const About = () => {
                                 className="flex items-center text-gray-600 font-semibold"
                                 href="https://www.linkedin.com/in/michael-chen-kj/"
                             >
-                                <img className="h-4 mr-2" src="/linkedin-icon.svg"/>
+                                <img className="h-4 mr-2" src="/linkedin-icon.svg" width="20"/>
                                 <span>LinkedIn</span>
                             </a>
                         </div>

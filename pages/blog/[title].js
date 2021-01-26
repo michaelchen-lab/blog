@@ -1,3 +1,5 @@
+import styles from '../../styles/unreset.module.css'
+
 import Head from 'next/head'
 import Link from 'next/link'
 import { getAllPostTitles, getPostData } from '../../utils/posts'
@@ -18,7 +20,7 @@ const Post = ({postData}) => {
                         <a className="text-lg text-gray-600">
                             <Date dateString={postData.date} />
                         </a>
-                        <div className="unreset">
+                        <div className={styles.unreset}>
                             <Content content={postData.contentHTML} />
                         </div>
                     </article>
