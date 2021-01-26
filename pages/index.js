@@ -8,7 +8,6 @@ const Home = () => {
         <>
             <Head>
                 <title>Michael Chen</title>
-                <link rel="icon" href="/favicon/favicon.ico" />
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Head>
 

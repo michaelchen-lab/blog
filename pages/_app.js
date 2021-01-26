@@ -3,6 +3,7 @@ import { useState } from 'react'
 import '../styles/globals.css'
 import '../styles/hljsTheme.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
     return (
@@ -20,6 +21,9 @@ const Layout = ({children}) => {
 
     return (
         <>
+            <Head>
+                <link rel="icon" href="/favicon/favicon.ico" />
+            </Head>
             <div className="">
                 <header className="container mx-auto max-w-7xl">
                     <div className="flex pt-6 pb-4 px-6 border-b">
@@ -95,8 +99,8 @@ const MobileNavMenu = ({ isOpen, setIsOpen }) => {
 const MobileNavItem = ({ to, name }) => {
     return (
         <Link href={to}>
-            <div className="bg-white min-w-full text-center py-2 border-b">
-                <a className="text-sm text-gray-600">{name}</a>
+            <div className="bg-white min-w-full text-center py-4 border-b">
+                <a className="text-gray-600 font-medium">{name}</a>
             </div>
         </Link>
     )
