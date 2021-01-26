@@ -15,8 +15,8 @@ const Home = () => {
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <div className="col-span-1 md:col-span-4">
-                            <h1 className="text-5xl font-semibold">Hello!</h1>
-                            <p className="text-lg md:text-xl text-gray-600 mt-8">
+                            <h1 className="font-serif text-5xl font-semibold">Hello!</h1>
+                            <p className="text-lg md:text-xl text-gray-600 mt-6">
                                 I'm Michael Chen, a high school student from Singapore.
                                 I am passionate about solving problems using software development
                                 and data science.
