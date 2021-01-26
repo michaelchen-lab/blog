@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
+import { Date } from '../components/ui'
 import { getSortedPostsData } from '../utils/posts'
 
 const Blog = ({ allPostsData }) => {
@@ -11,15 +12,15 @@ const Blog = ({ allPostsData }) => {
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
-                    <h1 className="text-5xl mb-8 font-semibold">Blog</h1>
+                    <h1 className="font-serif text-5xl mb-8 font-semibold">Blog</h1>
                     {allPostsData.map(({ id, date, title }) => (
                         <div className="mb-4" key={id}>
                             <Link href={`/blog/${id}`}>
-                                <p className="text-2xl cursor-pointer">{title}</p>
+                                <p className=" text-2xl cursor-pointer">{title}</p>
                             </Link>
-                            <small>
-                                {date}
-                            </small>
+                            <a className="text-base text-gray-600">
+                                <Date dateString={date} />
+                            </a>
                         </div>
                     ))}
                 </div>

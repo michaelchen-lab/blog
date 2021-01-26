@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { TextLink } from '../components/ui'
+import { TextLink, SectionTitle } from '../components/ui'
 
 const Projects = () => {
     return (
@@ -10,16 +10,28 @@ const Projects = () => {
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
-                    <h1 className="text-5xl font-semibold">Projects</h1>
-                    <section>
-                        <p className="text-lg mt-6">
-                            My most recent project is <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>,
-                            which is done as part of my internship at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>.
-                            MenuCarlo helps F&B owners optimize their menu using their historical transactions data.
+                    <h1 className="font-serif text-5xl font-semibold">Projects</h1>
+                    <section className="mt-8">
+                        <SectionTitle to="/blog/menucarlo" name="MenuCarlo" />
+                        <p className="text-lg mt-2">
+                            Data is the new oil. Yet small F&B businesses fail to harness their data's potential
+                            due to lack of manpower and expertise. This project aims to
+                            empower small businesses by putting the power of data science in their hands.
+                        </p>
+                        <p className="text-lg mt-2 mb-8">
+                            As part of my internship at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>, we created <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>
+                             , an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions.
+                        </p>
+                        <SectionTitle to="/blog/fastdash" name="FastDash" />
+                        <p className="text-lg mt-2">
+                            Most people rely on Excel to create dashboards. But sharing with others is cumbersome,
+                            since the whole file must be sent via email. And Excel's graph are not visually appealing by default.
                         </p>
                         <p className="text-lg mt-2">
-                            Previously, I worked on <TextLink to="https://github.com/michaelchen-lab/fastdash">FastDash</TextLink>, an end-to-end dashboard builder designed for rapid
-                            visualization and easy sharing. This is my final project for <TextLink to="https://cs50.harvard.edu/web/2020/">CS50W</TextLink>.
+                            As my final project for <TextLink to="https://cs50.harvard.edu/web/2020/">CS50W</TextLink>,
+                            I created <TextLink to="https://github.com/michaelchen-lab/fastdash">FastDash</TextLink>,
+                            an end-to-end dashboard builder. Dashboards now look good out-of-the-box, and can be shared
+                            using just a URL.
                         </p>
                     </section>
                     <section>

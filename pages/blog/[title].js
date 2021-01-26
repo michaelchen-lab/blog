@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { getAllPostTitles, getPostData } from '../../utils/posts'
 import { Date } from '../../components/ui'
 
+import parse, { domToReact } from 'html-react-parser'
+
 const Post = ({postData}) => {
     return (
         <>
@@ -17,7 +19,7 @@ const Post = ({postData}) => {
                             <Date dateString={postData.date} />
                         </a>
                         <div className="unreset">
-                            <div dangerouslySetInnerHTML={{ __html: postData.contentHTML }}/>
+                            <Content content={postData.contentHTML} />
                         </div>
                     </article>
 
@@ -54,3 +56,28 @@ const getStaticProps = async ({ params }) => {
 }
 
 export { getStaticPaths, getStaticProps }
+
+const Content = ({content}) => {
+    // Convert internal links from <a> to next/link
+    return (
+        <>
+            { parse(content, {
+                replace: ({attribs, name, children}) => {
+                    if (!attribs) { return }
+
+                    if ('href' in attribs && name === 'a') {
+                        if (!(attribs.href.includes('http'))) {
+                            return (
+                                <Link href={attribs.href}>
+                                    { domToReact(children) }
+                                </Link>
+                            )
+                        } else {
+                            return
+                        }
+                    }
+                }
+            })}
+        </>
+    )
+}

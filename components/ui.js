@@ -7,13 +7,13 @@ const TextLink = ({to, children}) => {
             { (to.includes('http')) ? (
                 // External links: Open in new tab
                 <a
-                    className="text-blue-500 hover:underline"
+                    className="text-blue-700 hover:underline"
                     href={to} target="_blank"
                 >{children}</a>
             ) : (
                 // Internal links: Open in current tab
                 <Link href={to}>
-                    <a className="text-blue-500 hover:underline">{children}</a>
+                    <a className="text-blue-700 hover:underline">{children}</a>
                 </Link>
             )}
         </>
@@ -25,4 +25,28 @@ const Date = ({ dateString }) => {
     return <time dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
 }
 
-export { TextLink, Date }
+const Section = ({ children }) => {
+    return (
+        <div className="col-span-1 md:col-span-3 md:pt-4">
+            { children }
+        </div>
+    )
+}
+
+const SectionTitle = ({ to, name }) => {
+    return (
+        <Link href={to}>
+            <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name} ></h2>
+        </Link>
+    )
+}
+
+const SectionDescription = ({ children }) => {
+    return (
+        <p className="text-base md:text-lg text-justify">
+            { children }
+        </p>
+    )
+}
+
+export { TextLink, Date, Section, SectionTitle, SectionDescription }

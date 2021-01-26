@@ -9,7 +9,7 @@ const About = () => {
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
-                    <h1 className="text-5xl font-semibold">About Me</h1>
+                    <h1 className="font-serif text-5xl font-semibold">About Me</h1>
                     <div className="flex flex-row mt-2">
                         <div className="mr-6">
                             <a
@@ -36,39 +36,41 @@ const About = () => {
                             I spend most of my time building web apps, implementing ML models, and
                             reading about statistics.
                         </p>
+                        <p className="text-lg mt-2">
+                            Many people suffer from the lack of access to opportunities,
+                            and businesses are riddled with inefficiencies. I am passionate about solving
+                            these problems with software development and data science.
+                        </p>
                     </section>
                     <section >
                         <h2 className="text-3xl font-semibold mt-6">What I'm Doing Now</h2>
                         <p className="text-lg mt-4">
-                            As a business data science research intern at New Jersey Institute of Technology,
-                            I am part of a research team studying {' '}
-                            <TextLink to="https://en.wikipedia.org/wiki/Ad_blocking">ad-blocking</TextLink> {' '}
-                            from a publisher's perspective.
-                        </p>
-                        <p className="text-lg mt-2">
-                            I am starting a personal project to help developers find code buddies, mentors or mentees.
-                            Also, I will be regularly writing blog posts here.
-                        </p>
-                        <p className="text-base mt-2">
-                            *Notice how schoolwork isn't mentioned here.
+                            Alongside balancing school commitments, I'm a <a className="font-medium">research
+                            intern</a> at New Jersey Institute of Technology. Our business data science research team is studying {' '}
+                            the impact of <TextLink to="https://en.wikipedia.org/wiki/Ad_blocking">ad-blocking</TextLink> {' '}
+                            on publishers and readers, and how publishers can best deal with ad-blocker users.
                         </p>
                     </section>
                     <section >
-                        <h2 className="text-3xl font-semibold mt-6">Past Experiences</h2>
+                        <h2 className="text-3xl font-semibold mt-6">What I Have Done</h2>
+
                         <p className="text-lg mt-4">
-                            Previously, I was a data science intern at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>,
-                            which is a large non-profit for supporting AI development in Singapore.
-                            I worked on an open-source analytics web app called <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">MenuCarlo</TextLink>.
-                            MenuCarlo helps F&B owners optimize their menu using their historical transactions data.
+                            I was a data science intern at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>,
+                            a large non-profit for supporting AI development in Singapore. During my time there, I worked towards
+                            bringing data science into the F&B industry.
                         </p>
                         <p className="text-lg mt-2">
                             I was also a data science intern at <TextLink to="https://www.psioninsights.com/">Psion Insights</TextLink>,
-                            a risk management startup based in Singapore. I built a chatbot for logging risk-related issues,
-                            which uses NLP classification to categorize newly added issues.
+                            a risk management startup. Our team's mission was to solve the inefficiencies of issue reporting with
+                            software development and machine learning.
+                        </p>
+                        <p className="text-lg mt-2">
+                            During my free time, I work on personal projects to expand my skillset and tackle problems
+                            faced by people around me. Find out more about my projects <TextLink to="/projects">here</TextLink>.
                         </p>
                     </section>
                     <section >
-                        <h2 className="text-3xl font-semibold mt-6">Other Interests</h2>
+                        <h2 className="text-3xl font-semibold mt-6">Other Things I Enjoy</h2>
                         <p className="text-lg mt-4">
                             I read about philosophy, economic history and cliodynamics. When I'm procrastinating,
                             I watch anime and play chess. But honestly, nothing beats sleeping.

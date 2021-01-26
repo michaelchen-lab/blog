@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { TextLink } from '../components/ui'
+import { TextLink, Section, SectionTitle, SectionDescription } from '../components/ui'
 
 const Home = () => {
     return (
@@ -18,8 +18,8 @@ const Home = () => {
                             <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-600 mt-8">
                                 I'm Michael Chen, a high school student from Singapore.
-                                I build open-source apps and conduct business-related research
-                                using web development and data science.
+                                I am passionate about solving problems using software development
+                                and data science.
                             </p>
 
                             <div className="flex flex-row mt-8">
@@ -54,7 +54,7 @@ const Home = () => {
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
                                 I am part of an academic research team studying ad-blocking from a publisher's perspective.
-                                Also, I am starting a personal project to help developers find code buddies, mentors and mentees.
+                                Also, I am starting a personal project aimed at helping developers find code buddies, mentors and mentees.
                             </SectionDescription>
                         </Section>
                         <Section>
@@ -83,27 +83,3 @@ const Home = () => {
 }
 
 export default Home
-
-const Section = ({ children }) => {
-    return (
-        <div className="col-span-1 md:col-span-3 md:pt-4">
-            { children }
-        </div>
-    )
-}
-
-const SectionTitle = ({ to, name }) => {
-    return (
-        <Link href={to}>
-            <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name} ></h2>
-        </Link>
-    )
-}
-
-const SectionDescription = ({ children }) => {
-    return (
-        <p className="text-base md:text-lg text-justify">
-            { children }
-        </p>
-    )
-}

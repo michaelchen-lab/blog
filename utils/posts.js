@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 
 import unified from 'unified'
-import markdown from 'remark-parse'
+import parse from 'remark-parse'
 import html from 'remark-html'
 import highlight from 'remark-highlight.js'
 
@@ -59,7 +59,7 @@ const getPostData = async (title) => {
 
     // Use remark to convert markdown into HTML string
     const processedContent = await unified()
-        .use(markdown)
+        .use(parse)
         .use(highlight)
         .use(html)
         .process(matterResult.content)

@@ -4,10 +4,15 @@ import '../styles/globals.css'
 import '../styles/hljsTheme.css'
 import Link from 'next/link'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }) {
+    const router = useRouter()
+
+    console.log(router.pathname)
+
     return (
-        <Layout>
+        <Layout path={router.pathname}>
             <Component {...pageProps} />
         </Layout>
     )
@@ -26,10 +31,10 @@ const Layout = ({children}) => {
             </Head>
             <div className="">
                 <header className="container mx-auto max-w-7xl">
-                    <div className="flex pt-6 pb-4 px-6 border-b">
+                    <div className="flex px-6 pt-6 pb-4 border-b">
                         <Link href="/">
-                            <a className="font-mono text-xl md:text-xl lg:text-2xl" style={{color: '#00F'}}>
-                                &#60;MichaelChen /&#62;
+                            <a className="font-serif text-xl md:text-xl lg:text-2xl">
+                                MICHAEL<b>CHEN</b>
                             </a>
                         </Link>
                         <DesktopNav />
@@ -42,6 +47,15 @@ const Layout = ({children}) => {
         </>
     )
 }
+
+// <a className="font-mono text-xl md:text-xl lg:text-2xl" style={{color: '#00F'}}>
+//     &#60;MichaelChen /&#62;
+// </a>
+
+// <img
+//     src="/avatar_logo.png" alt="Michael's Avatar"
+//     width="70"
+// />
 
 const DesktopNav = () => {
     return (
