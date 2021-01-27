@@ -4,7 +4,7 @@ date: "20210126"
 ---
 MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions. During my internship at AI Singapore, I was appointed lead developer of this project. Our goal is to empower small F&B establishments by putting the power of data science in their hands.
 
-I will introduce MenuCarlo's backend architecture and the reasoning behind these choices. 
+I will introduce MenuCarlo's backend architecture and the reasoning behind these choices, and how they worked out in the end.
 
 # Django
 
@@ -41,7 +41,7 @@ class DataViewSet(viewsets.ModelViewSet):
 
 My goal here is just to illustrate the power of DRF's abstractions. This series of [tutorials](https://www.django-rest-framework.org/tutorial/quickstart/) provide a solid introduction to DRF.
 
-Even simple, static APIs can take advantage of DRF, since DRF's permissions classes gives us easy control over who can access the API. 
+Even simple, static APIs can take advantage of DRF, since DRF's permissions classes give us easy control over who can access the API. 
 
 ```python
 from rest_framework.decorators import api_view, permission_classes
@@ -62,7 +62,7 @@ DRF gives developers the flexibility to write custom APIs, while abstracting awa
 
 The textbook answer for using JWT (JSON Web Tokens) is its scalability. I chose JWT simply to learn a new technology. Besides, for our purposes, both JWT and cookie auth will work just fine.
 
-**[Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)** is a plugin for Django Rest Framework. We use this plugin for handling our auth. Just like DRF, SimpleJWT is really easy-to-use. For 90% of use cases, just this [guide](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html) is enough.
+**[Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)** is a plugin for Django Rest Framework. Just like DRF, SimpleJWT is really easy-to-use, with little to no configuration required. We stuck with the default expirations of 5 minutes and 1 day for access and refresh token respectively. This [guide](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html) comprehensive enough for nearly all use cases.
 
 For proper separation of concerns, we created an `accounts` app within Django solely for handling authentication.
 
@@ -72,7 +72,7 @@ For proper separation of concerns, we created an `accounts` app within Django so
 
 We chose a **relational database** instead of a non-relational one due to the nature of our data. Besides general user information (i.e. username and password), we need to store analytics results, business information and data. While a non-relational DB might be easier in the early stages, it will become a bottleneck once the application becomes more complex. 
 
-**Django's ORM** has strong support for PostgreSQL. While PostgreSQL is largely similar to other relational databases, Django ORM supports most of PostgreSQL's unique features, such as `JSONField`.
+**Django's ORM** has strong support for PostgreSQL. While PostgreSQL is largely similar to other relational databases, Django ORM supports most of PostgreSQL's unique features, such as `JSONField`. We use `JSONField` quite extensively to store small blocks of data, such as analytics results.
 
 ## Amazon S3
 
@@ -84,3 +84,33 @@ The selection of S3 is simply because of our prior experience with it. Alternati
 
 # Periodic Tasks
 
+Periodic Tasks is an integral part of MenuCarlo's backend. We extract new transactions data from [Square](https://squareup.com/us/en) every 12 hours to keep our analytics and simulations up-to-date.
+
+## Celery
+
+We chose Celery and Redis because of their popularity in the Django ecosystem. Considering our use case is rather typical, it makes sense to go for a well-established option. `django-celery-beat` helps us schedule our periodic tasks using PostgreSQL.
+
+However, working with Celery can be a bit of a hassle. Spinning up `django-celery-beat` must be done separately. The following commands must run simultaneously. (Note that this only applies to Windows users)
+
+```shell
+$ web: gunicorn (project_name).wsgi --log-file -
+$ worker: celery -A (project_name) worker --beat --events --loglevel=INFO
+```
+
+When using Heroku for hosting, periodic tasks will be executed using Worker Dynos, which works perfectly fine. However, Heroku's free tier does not work well because the instance shuts down after 30 minutes. While the instance is sleeping, it does not 'wake itself up' when a task is scheduled. So you will probably need at least a Hobby plan ($7/month).
+
+# Next Steps
+
+The backend's architectue is quite comprehensive, considering its integrations with multiple external services (e.g. Amazon S3 and Square). But what are the next steps?
+
+## Implementing Tests
+
+Due to the tight deadline of our project, we didn't have time to implement testing. While CRUD-based operations basically do not need tests, since it would become more like testing the framework rather than our own code, the periodic tasks need to be be tested.
+
+What happens if Square's API is down? What happens if the task failed to execute for whatever reason? These situations need to be accounted for in production. Which brings me to my next point...
+
+## Error Tracking
+
+Currently, errors faced by users are not logged by us. This could become a problem, since bugs would take longer to be discovered. We also do not have real-time traffic monitoring. Considering the importance of our periodic tasks, it is important that we are notified of failed tasks.
+
+We could consider using a solution like [Sentry](https://sentry.io/welcome/), which is highly recommended in the Django community. Email notifications can be handled by [Amazon SNS](https://aws.amazon.com/sns/).
