@@ -34,11 +34,16 @@ const Section = ({ children }) => {
 }
 
 const SectionTitle = ({ to, name }) => {
-    return (
-        <Link href={to}>
-            <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name} ></h2>
-        </Link>
-    )
+    if (to) {
+        return (
+            <Link href={to}>
+                <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name} ></h2>
+            </Link>
+        )
+    } else {
+        return <h2 className="text-3xl font-semibold pb-4">{name}</h2>
+    }
+
 }
 
 const SectionDescription = ({ children }) => {

@@ -33,7 +33,7 @@ const About = () => {
                     <section >
                         <p className="text-lg mt-6">
                             I am a high school student from Raffles Institution in Singapore.
-                            I spend most of my time building web apps, implementing ML models, and
+                            I spend most of my time building web apps, implementing machine learning models, and
                             reading about statistics.
                         </p>
                         <p className="text-lg mt-2">

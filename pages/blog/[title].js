@@ -16,7 +16,7 @@ const Post = ({postData}) => {
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <article>
-                        <h1 className="text-4xl">{postData.title}</h1>
+                        <h1 className="font-medium text-4xl mb-2">{postData.title}</h1>
                         <a className="text-lg text-gray-600">
                             <Date dateString={postData.date} />
                         </a>

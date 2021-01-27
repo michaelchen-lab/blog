@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <div className="col-span-1 md:col-span-4">
-                            <h1 className="font-serif text-5xl font-semibold">Hello!</h1>
+                            <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-600 mt-6">
                                 I'm Michael Chen, a high school student from Singapore.
                                 I am passionate about solving problems using software development
@@ -64,9 +64,9 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/about" name="About" />
                             <SectionDescription>
-                                You can find out more about me and my life in my <TextLink to="/about">bio</TextLink>.
-                                Feel free to reach out via <TextLink to="https://www.linkedin.com/in/michael-chen-kj/">LinkedIn</TextLink> {''}
-                                or <TextLink to="mailto:michaelchenkaijie2004@gmail.com">email</TextLink>.
+                                You can find out more about my interests and what I'm doing now in my <TextLink to="/about">bio</TextLink>.
+                                Feel free to reach out via <TextLink to="mailto:michaelchenkaijie2004@gmail.com">email</TextLink> {' '}
+                                or LinkedIn.
                             </SectionDescription>
                         </Section>
                     </div>
