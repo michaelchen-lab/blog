@@ -1,10 +1,10 @@
 ---
-title: "MenuCarlo: Designing the Backend"
+title: Designing MenuCarlo's Backend Architecture
 date: "20210126"
 ---
 MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions. During my internship at AI Singapore, I was appointed lead developer of this project. Our goal is to empower small F&B establishments by putting the power of data science in their hands.
 
-I will introduce MenuCarlo's backend architecture and the reasoning behind these choices, and how they worked out in the end.
+This rundown of MenuCarlo's backend architecture will also contain the reasons behind each decision, and our key takeaways. I hope this overview can help you choose the right technologies for your own backend.
 
 # Django
 
