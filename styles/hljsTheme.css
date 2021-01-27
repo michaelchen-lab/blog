@@ -4,7 +4,15 @@ Original theme - Ocean Dark Theme – by https://github.com/gavsiu
 Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/JesseLeite/an-old-hope-syntax-atom
 */
 
-code {
+code:not(.hljs) {
+    background: #1E1E1E;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+code.hljs {
     border-radius: 10px;
     padding: 20px;
 }

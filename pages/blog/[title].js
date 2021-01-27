@@ -11,7 +11,7 @@ const Post = ({postData}) => {
     return (
         <>
             <Head>
-                <title>{postData.title}</title>
+                <title>{postData.title} | Michael Chen</title>
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
