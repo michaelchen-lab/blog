@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { TextLink, Section, SectionTitle, SectionDescription } from '../components/ui'
+import { TextLink, Section, SectionTitle, SectionDescription, BioLinks } from '../components/ui'
 
 const Home = () => {
     return (
@@ -21,25 +21,8 @@ const Home = () => {
                                 and data science.
                             </p>
 
-                            <div className="flex flex-row mt-8">
-                                <div className="mr-6">
-                                    <a
-                                        className="flex items-center text-gray-600 font-semibold"
-                                        href="https://github.com/michaelchen-lab"
-                                    >
-                                        <img className="h-4 mr-2" src="/github-icon.svg" alt="github" width="20" height="20"/>
-                                        <span>Github</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a
-                                        className="flex items-center text-gray-600 font-semibold"
-                                        href="https://www.linkedin.com/in/michael-chen-kj/"
-                                    >
-                                        <img className="h-4 mr-2" src="/linkedin-icon.svg" alt="linkedin" width="20" height="20"/>
-                                        <span>LinkedIn</span>
-                                    </a>
-                                </div>
+                            <div className="mt-8">
+                                <BioLinks />
                             </div>
                         </div>
                         <div className="col-span-1 md:col-span-2 mx-auto">

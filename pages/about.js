@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { TextLink } from '../components/ui'
+import Link from 'next/link'
+import { TextLink, BioLinks } from '../components/ui'
 
 const About = () => {
     return (
@@ -10,25 +11,8 @@ const About = () => {
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <h1 className="font-serif text-5xl font-semibold">About Me</h1>
-                    <div className="flex flex-row mt-2">
-                        <div className="mr-6">
-                            <a
-                                className="flex items-center text-gray-600 font-semibold"
-                                href="https://github.com/michaelchen-lab"
-                            >
-                                <img className="h-4 mr-2" src="/github-icon.svg" width="20"/>
-                                <span>Github</span>
-                            </a>
-                        </div>
-                        <div>
-                            <a
-                                className="flex items-center text-gray-600 font-semibold"
-                                href="https://www.linkedin.com/in/michael-chen-kj/"
-                            >
-                                <img className="h-4 mr-2" src="/linkedin-icon.svg" width="20"/>
-                                <span>LinkedIn</span>
-                            </a>
-                        </div>
+                    <div className="mt-2">
+                        <BioLinks />
                     </div>
                     <section >
                         <p className="text-lg mt-6">

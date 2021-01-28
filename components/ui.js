@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 import Link from 'next/link'
 import { parseISO, format } from 'date-fns'
 
@@ -8,7 +10,7 @@ const TextLink = ({to, children}) => {
                 // External links: Open in new tab
                 <a
                     className="text-blue-700 hover:underline"
-                    href={to} target="_blank"
+                    href={to}
                 >{children}</a>
             ) : (
                 // Internal links: Open in current tab
@@ -54,4 +56,58 @@ const SectionDescription = ({ children }) => {
     )
 }
 
-export { TextLink, Date, Section, SectionTitle, SectionDescription }
+const BioLinks = () => {
+    const [isMobile, setIsMobile] = useState(true)
+
+    useEffect(() => {
+        if (window.innerWidth >= 768) {
+            setIsMobile(false)
+        }
+    })
+
+    return (
+        <div className="flex flex-row">
+            <div className="mr-6">
+                <a
+                    className="flex items-center text-gray-600 font-semibold"
+                    href="https://github.com/michaelchen-lab"
+                >
+                    <img className="h-4 mr-2" src="/github-icon.svg" alt="github" width="20" height="20"/>
+                    <span>Github</span>
+                </a>
+            </div>
+            <div className="mr-6">
+                <a
+                    className="flex items-center text-gray-600 font-semibold"
+                    href="https://www.linkedin.com/in/michael-chen-kj/"
+                >
+                    <img className="h-4 mr-2" src="/linkedin-icon.svg" alt="linkedin" width="20" height="20"/>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div>
+                { (isMobile) ? (
+                    <a
+                        className="flex items-center text-gray-600 font-semibold"
+                        href="resume.pdf" download
+                    >
+                        <img className="h-4 mr-2" src="/resume-icon.svg" alt="linkedin" width="20" height="20"/>
+                        <span>Resume</span>
+                    </a>
+                ) : (
+                    <Link href="/resume">
+                        <a
+                            className="flex items-center text-gray-600 font-semibold"
+                        >
+                            <img className="h-4 mr-2" src="/resume-icon.svg" alt="linkedin" width="20" height="20"/>
+                            <span>Resume</span>
+                        </a>
+                    </Link>
+                )}
+
+            </div>
+        </div>
+    )
+}
+
+export { TextLink, Date, Section, SectionTitle, SectionDescription, BioLinks }
