@@ -1,3 +1,8 @@
-[Visit Website](https://michaelchen.io/)
+## Website
 
-Inspired by [Sam Selikoff](https://github.com/samselikoff/samselikoff.com) and [Shawn Wang's](https://www.swyx.io/) personal sites.
+[Link](https://michaelchen.io/)
+
+## Design Inspirations
+
+- [Sam Selikoff's](https://github.com/samselikoff/samselikoff.com) personal site
+- [Shawn Wang's](https://github.com/sw-yx/swyxdotio) personal site
