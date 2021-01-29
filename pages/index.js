@@ -33,8 +33,8 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
-                                I am part of an academic research team studying ad-blocking from a publisher's perspective.
-                                Also, I am starting a personal project aimed at helping developers find code buddies, mentors and mentees.
+                                I am part of an academic research team studying the <TextLink to="/blog/why-adblocking-is-so-problematic">problems of ad-blocking</TextLink> {' '}
+                                from a publisher's perspective. Also, I am starting a personal project aimed at helping developers find code buddies, mentors and mentees.
                             </SectionDescription>
                         </Section>
                         <Section>

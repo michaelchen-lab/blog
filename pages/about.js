@@ -31,7 +31,7 @@ const About = () => {
                         <p className="text-lg mt-4">
                             Alongside balancing school commitments, I'm a <a className="font-medium">research
                             intern</a> at New Jersey Institute of Technology. Our business data science research team is studying {' '}
-                            the impact of <TextLink to="https://en.wikipedia.org/wiki/Ad_blocking">ad-blocking</TextLink> {' '}
+                            the impact of <TextLink to="/blog/why-adblocking-is-so-problematic">ad-blocking</TextLink> {' '}
                             on publishers and readers, and how publishers can best deal with ad-blocker users.
                         </p>
                     </section>

@@ -1,5 +1,5 @@
 ---
-title: Why adblocking is so problematic
+title: Why Adblocking Is So Problematic
 date: "20210128"
 ---
 According to Wikipedia, adblocking is a software capability for blocking or altering online ads in a web browser. This often comes in the form of a browser extension, such as [Adblock Plus](https://adblockplus.org/).
@@ -53,7 +53,7 @@ While most of this article talks about adblocking from a publisher's perspective
 If these free publishers can't find a way to keep going, we will end up with paywall everywhere, which is arguably worse than intrusive ads.
 
 So here's what we can do:
-1. **Disable your adblocker on the whole site.** Choose the media sites you frequent the most and support their work by allowing them to show ads. 
+1. **Disable your adblocker on the whole site.** Choose the media sites you frequent the most and support their work by allowing them to show ads.
 
 2. **Donate to a publisher.** Some sites like Guardian are actively looking for donations to stay afloat. If you think of how much you save by not having to buy a newspaper, donating some money isn't very hard to justify.
 
@@ -61,6 +61,6 @@ So here's what we can do:
 
 *Popup by Guardian*
 
-Adblocking has given web users a better experience, but has also created an existential crisis for many online news websites. The solutions available to free publishers aren't without major downsides. 
+Adblocking has given web users a better experience, but has also created an existential crisis for many online news websites. The solutions available to free publishers aren't without major downsides.
 
 This tug of war between users and publishers, where the stakes are people's jobs and accessibility of content, is what makes adblockers so problematic.
