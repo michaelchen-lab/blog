@@ -10,7 +10,15 @@ import highlight from 'remark-highlight.js'
 const postsDirectory = path.join(process.cwd(), 'posts')
 
 const getSortedPostsData = () => {
-    const fileNames = fs.readdirSync(postsDirectory)
+    let fileNames = fs.readdirSync(postsDirectory)
+
+    fileNames = fileNames.filter(filename => {
+        if (filename.includes('md')) {
+            return true
+        }
+        return false
+    })
+
     const allPostsData = fileNames.map(fileName => {
         // Remove ".md" from file name to get title
         const id = fileName.replace(/\.md$/, '')
@@ -52,6 +60,7 @@ const getAllPostTitles = () => {
 
 const getPostData = async (title) => {
     const fullPath = path.join(postsDirectory, `${title}.md`)
+    console.log(fullPath)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     // Use gray-matter to parse the post metadata section
