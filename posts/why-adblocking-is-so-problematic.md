@@ -20,7 +20,7 @@ The key benefit of this approach is the minimal loss of engagement. Since all re
 
 But this solution has a fatal flaw. Increasing ads for non-adblocker users will likely cause these users to start adopting adblockers. As the proportion of adblocker users increase, publishers are forced to increase ads once again, which leads to more adblocker users...the vicious cycle continues. And let's not forget, some users may simply never visit the site again.
 
-Evidently, increasing ads is not a sustainable option. //
+Judging by this solution's lack of adoption amongst publishers, increasing ads is likely unsustainable.
 
 ## Solution 2: Force users to disable adblockers
 
@@ -34,13 +34,13 @@ This strategy's main advantage is that it maximizes profits generated from adblo
 
 But this comes at a cost of engagement. A significant portion of adblocker users may choose not to whitelist. This could have serious long-term effects for the publisher.
 
-Wall strategy is the polar opposite of the previous solution. //
+In terms of pros and cons, Wall strategy is the complete opposite of the previous solution.
 
 ## Solution 3: Display Acceptable Ads to adblocking users
 
 [Acceptable Ads](https://acceptableads.com/) is an initiative started by Adblock Plus to allow publishers to display non-intrusive ads to adblocking users. Ad placement guidelines are decided by an independent [Acceptable Ads Committee](https://www.acceptableadscommittee.org/the-standard/). The catch is that large publishers must pay the Program a fee to participate.
 
-Acceptable Ads strikes the middle ground between the previous two solutions. Publishers do not lose engagement and can still profit from adblocking users, albeit at a significantly curtailed margin. //
+Acceptable Ads strikes the middle ground between the previous two solutions. Publishers do not lose engagement and can still profit from adblocking users, albeit at a significantly curtailed margin.
 
 However, publishers who adopt Acceptable Ads are threading on thin ice. Adblocker companies set the rules and publishers who rely on them have no negotiating power. Some have even compared Acceptable Ads to the mafia. Publishers may be forced to accept increasing fees and stricter ad placement guidelines, making Acceptable Ads too risky for any major publisher. 
 
@@ -48,7 +48,7 @@ However, publishers who adopt Acceptable Ads are threading on thin ice. Adblocke
 
 While most of this article talks about adblocking from a publisher's perspective, the sustainability of free online publishing is nonetheless important for us. We often take for granted the amount of free content on the internet. Yet, these journalists must still be paid somehow.
 
-If these free publishers can't find a way to keep going, we may/will end up with paywalls everywhere, a situation arguably worse than intrusive ads. //
+If these free publishers can't find a way to keep going, we may end up with paywalls everywhere, a situation arguably worse than intrusive ads.
 
 So here's what we can do:
 1. **Disable your adblocker on the whole site.** Choose the media sites you frequent the most and support their work by allowing them to show ads.
