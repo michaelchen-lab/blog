@@ -62,7 +62,7 @@ DRF gives developers the flexibility to write custom APIs, while abstracting awa
 
 The textbook answer for using JWT (JSON Web Tokens) is its scalability. I chose JWT simply to learn a new technology. Besides, for our purposes, both JWT and cookie auth will work just fine.
 
-[Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) is a plugin for Django Rest Framework. Just like DRF, SimpleJWT is really easy-to-use, with little to no configuration required. We stuck with the default expirations of 5 minutes and 1 day for access and refresh token respectively. This [guide](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html) comprehensive enough for nearly all use cases.
+[Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) is a plugin for Django Rest Framework. Just like DRF, SimpleJWT is really easy-to-use, with little to no configuration required. We stuck with the default expirations of 5 minutes and 1 day for access and refresh token respectively. This [guide](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html) is comprehensive enough for nearly all use cases.
 
 For proper separation of concerns, we created an `accounts` app within Django solely for handling authentication.
 
@@ -80,7 +80,7 @@ We use AWS S3 to store our users' historical transactions data. `django-storages
 
 In our use case, we only needed to configure the default file storage method to S3 in `settings.py`. The steps are outlined [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
 
-The selection of S3 is simply because of our prior experience with it. Alternative solutions such as Azure Storage are likely equally functional. I believe any well-established cloud storage solution will work 99% of projects.
+The selection of S3 is simply because of our prior experience with it. Alternative solutions such as Azure Storage are likely equally functional. I believe any well-established cloud storage solution will work with 99% of projects.
 
 ## Periodic Tasks
 
@@ -101,7 +101,7 @@ When using Heroku for hosting, periodic tasks will be executed using Worker Dyno
 
 ## Next Steps
 
-The backend's architectue is quite comprehensive, considering its integrations with multiple external services (e.g. Amazon S3 and Square). But what are the next steps?
+The backend's architecture is quite comprehensive, considering its integrations with multiple external services (e.g. Amazon S3 and Square). But what are the next steps?
 
 ### Implementing Tests
 
