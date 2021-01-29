@@ -61,7 +61,7 @@ So here's what we can do:
 
 2. **Donate to a publisher.** Some sites like Guardian are actively looking for donations to stay afloat. If you think of how much you save by not having to buy a newspaper, donating some money isn't very hard to justify.
 
-![Donating to Guardian](/images/uploads/guardian_donation.png)
+![Donating to Guardian](/images/uploads/guardian_donation.png =250x)
 
 *Popup by Guardian*
 
