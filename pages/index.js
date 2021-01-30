@@ -10,10 +10,8 @@ const Home = () => {
                 <title>Michael Chen</title>
 
                 <meta property="og:title" content="Michael Chen" />
-                <meta property="og:image" content="/avatar.png" />
                 <meta property="og:description" content="I'm a high school student from Singapore, who is passionate about solving problems using software development and data science." />
                 <meta property="og:url" content="michaelchen.io" />
-                <meta property="og:type" content="website" />
             </Head>
 
             <main>
