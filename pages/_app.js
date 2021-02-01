@@ -28,7 +28,7 @@ const Layout = ({children}) => {
         <>
             <Head>
                 <link rel="icon" href="/favicon/favicon.ico" />
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
             </Head>
             <div className="">
                 <header className="container mx-auto max-w-7xl">
