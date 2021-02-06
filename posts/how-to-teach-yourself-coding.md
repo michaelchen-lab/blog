@@ -29,7 +29,9 @@ Words like "good enough" and "proficient" is difficult to measure. Having a vagu
 
 Google for the most popular programming language for area of interest. For example, if your end goal relates to data science, you should pick Python. Then find an online courses/tutorials that teach you the absolute basics of that language. There are a shit load of tutorials for the fundamentals of every major language. Just pick any popular option and start learning.
 
-This step shouldn't take more than 10 hours. More advanced concepts can be picked up subsequently.
+The goal of this step is to learn the super basic stuff like variables and functions, so aim to finish this in less than 10 hours. Once you can create a simple BMI calculator, move to the next step.
+
+Exception: If web development your area of interest, you need to learn JavaScript, HTML and CSS, since all 3 are considered fundamental knowledge. Aim for less than 20 hours on this.
 
 ## Step 3: Start a Project
 
