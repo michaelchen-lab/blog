@@ -15,6 +15,10 @@ const Post = ({postData}) => {
 
                 <meta property="og:title" content={postData.title} />
                 <meta property="og:description" content={postData.description} />
+
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@michaelchenkj" />
+                <meta name="twitter:creator" content="@michaelchenkj" />
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
