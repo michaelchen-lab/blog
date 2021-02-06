@@ -12,6 +12,9 @@ const Post = ({postData}) => {
         <>
             <Head>
                 <title>{postData.title} | Michael Chen</title>
+
+                <meta property="og:title" content={postData.title} />
+                <meta property="og:description" content={postData.description} />
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">

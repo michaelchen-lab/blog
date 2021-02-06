@@ -1,6 +1,7 @@
 ---
 title: Why Adblocking Is So Problematic
 date: "20210128"
+description: How impacted publishers can deal with adblocking and what we should do about this.
 ---
 According to Wikipedia, adblocking is a software capability for blocking or altering online ads in a web browser. This often comes in the form of a browser extension, such as [Adblock Plus](https://adblockplus.org/).
 
@@ -42,7 +43,7 @@ In terms of pros and cons, Wall strategy is the complete opposite of the previou
 
 Acceptable Ads strikes the middle ground between the previous two solutions. Publishers do not lose engagement and can still profit from adblocking users, albeit at a significantly curtailed margin.
 
-However, publishers who adopt Acceptable Ads are threading on thin ice. Adblocker companies set the rules and publishers who rely on them have no negotiating power. Some have even compared Acceptable Ads to the mafia. Publishers may be forced to accept increasing fees and stricter ad placement guidelines, making Acceptable Ads too risky for any major publisher. 
+However, publishers who adopt Acceptable Ads are threading on thin ice. Adblocker companies set the rules and publishers who rely on them have no negotiating power. Some have even compared Acceptable Ads to the mafia. Publishers may be forced to accept increasing fees and stricter ad placement guidelines, making Acceptable Ads too risky for any major publisher.
 
 ## What can we do?
 

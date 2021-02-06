@@ -1,6 +1,7 @@
 ---
 title: Designing MenuCarlo's Backend Architecture
 date: "20210126"
+description: MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions.
 ---
 MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions. During my internship at AI Singapore, I was appointed lead developer of this project. Our goal is to empower small F&B establishments by putting the power of data science in their hands.
 
@@ -8,7 +9,7 @@ This rundown of MenuCarlo's backend architecture will also contain the reasons b
 
 ## Django
 
-MenuCarlo's backend is built with Django for 3 main reasons. 
+MenuCarlo's backend is built with Django for 3 main reasons.
 
 1. **Python.** Python is our team's language of choice, since we come from a data science background.
 2. **Support for Data Science.** MenuCarlo has a strong data science focus. Building our backend in Python gives us access its rich ecosystem.
@@ -41,7 +42,7 @@ class DataViewSet(viewsets.ModelViewSet):
 
 My goal here is just to illustrate the power of DRF's abstractions. This series of [tutorials](https://www.django-rest-framework.org/tutorial/quickstart/) provide a solid introduction to DRF.
 
-Even simple, static APIs can take advantage of DRF, since DRF's permissions classes give us easy control over who can access the API. 
+Even simple, static APIs can take advantage of DRF, since DRF's permissions classes give us easy control over who can access the API.
 
 ```python
 from rest_framework.decorators import api_view, permission_classes
@@ -70,7 +71,7 @@ For proper separation of concerns, we created an `accounts` app within Django so
 
 ### PostgreSQL
 
-We chose a **relational database** instead of a non-relational one due to the nature of our data. Besides general user information (i.e. username and password), we need to store analytics results, business information and data. While a non-relational DB might be easier in the early stages, it will become a bottleneck once the application becomes more complex. 
+We chose a **relational database** instead of a non-relational one due to the nature of our data. Besides general user information (i.e. username and password), we need to store analytics results, business information and data. While a non-relational DB might be easier in the early stages, it will become a bottleneck once the application becomes more complex.
 
 **Django's ORM** has strong support for PostgreSQL. While PostgreSQL is largely similar to other relational databases, Django ORM supports most of PostgreSQL's unique features, such as `JSONField`. We use `JSONField` quite extensively to store small blocks of data, such as analytics results.
 

@@ -23,8 +23,8 @@ const Projects = () => {
                             an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions.
                         </p>
                         <p className="mt-4 mb-8">
-                            <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend#demo">Demo</TextLink> | {' '}
-                            <TextLink to="/blog/menucarlo-backend">Backend Architecture</TextLink> | {' '}
+                            <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend#demo">Demo</TextLink> · {' '}
+                            <TextLink to="/blog/menucarlo-backend">Backend Architecture</TextLink> · {' '}
                             <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">Source Code</TextLink>
                         </p>
                         <SectionTitle name="FastDash" />
@@ -39,7 +39,7 @@ const Projects = () => {
                             using just a URL.
                         </p>
                         <p className="mt-4 mb-8">
-                            <TextLink to="https://www.youtube.com/watch?v=sZFrC2hdzlY&ab_channel=michaelchen">Demo</TextLink> | {' '}
+                            <TextLink to="https://www.youtube.com/watch?v=sZFrC2hdzlY&ab_channel=michaelchen">Demo</TextLink> · {' '}
                             <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">Source Code</TextLink>
                         </p>
                     </section>

@@ -9,19 +9,19 @@ const Blog = ({ allPostsData }) => {
         <>
             <Head>
                 <title>Blog | Michael Chen</title>
-                <meta name="description" content="Find out about web development, data science and econometrics, amongst other things." />
+                <meta name="description" content="A blog for web development, data science and econometrics, amongst other things." />
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <h1 className="font-serif text-5xl mb-8 font-semibold">Blog</h1>
-                    {allPostsData.map(({ id, date, title }) => (
-                        <div className="mb-4" key={id}>
+                    {allPostsData.map(({ id, date, title, description }) => (
+                        <div className="mb-8" key={id}>
                             <Link href={`/blog/${id}`}>
-                                <p className=" text-2xl cursor-pointer">{title}</p>
+                                <div className="cursor-pointer">
+                                    <h2 className="text-2xl font-semibold cursor-pointer">{title}</h2>
+                                    <p className="text-lg text-base leading-tight text-gray-600 mt-2">{description}</p>
+                                </div>
                             </Link>
-                            <a className="text-base text-gray-600">
-                                <Date dateString={date} />
-                            </a>
                         </div>
                     ))}
                 </div>
