@@ -7,7 +7,14 @@ How did you learn coding yourself? How should I start programming? I hear these 
 
 ## Why This Guide?
 
-(Write later)
+Because online guides aren't comprehensive enough. They don't deal with challenges specific to self-learners, which includes:
+
+1. **Lack of Fixed Learning Path.** There isn't a standard curriculum. Self-learning requires you to design your own curriculum.
+2. **Lack of Guidance.** Unlike bootcamps or schools, there isn't a teacher 
+3. **Lack of Accountability.** When self-learning, there isn't an exam or employer to force you to learn concepts you detest. The only one who can keep you accountable is yourself.
+4. **Tutorial Hell.** Tutorial hell is the infamous problem where a self-learner watches tutorial after tutorial after tutorial, and never gets to apply those skills.
+
+These challenges combined can overwhelm self-learners, leading to procrastination and never learning to code. This guide outlines a self-learning methodology that specifically aims to solve the above challenges.
 
 ## Step 1: Define an End Goal
 
@@ -15,11 +22,11 @@ This long-term target is used as a guiding beacon for your learning journey. It 
 
 While your end goal need not be hyper-specific, it must be measurable or observable. Having too vague of an end goal is like being a cross-country runner and not knowing where the finishing line is.
 
-**Good Examples**
+### Good Examples
 1. Land a job as a junior software engineer
 2. Build a Twitter clone
 
-**Bad Examples**
+### Bad Examples
 1. Become good enough to be a junior software engineer
 1. Become proficient at web development
 
@@ -33,5 +40,31 @@ The goal of this step is to learn the super basic stuff like variables and funct
 
 Exception: If web development your area of interest, you need to learn JavaScript, HTML and CSS, since all 3 are considered fundamental knowledge. Aim for less than 20 hours on this.
 
-## Step 3: Start a Project
+## Step 3: Start Your First Project
 
+Create a personal project which pushes you towards your end goal. It should teach you some of the skills needed. Pick something you are genuinely interested in creating, so you shouldn't try to find inspiration from those "100 Personal Project Ideas" Medium articles.
+
+Say your end goal is to build a algorithmic trading bot. Your first project just be a stock trend analyzer, which takes in a CSV file and spits out metrics about a certain stock. 
+
+Build something you can complete in a month. If it takes too long, it means this project is too complex at this point. Simplify your project. Small wins are the key to motivation.
+
+### How do I pick up skills?
+
+Medium articles, Youtube videos, short Udemy courses...basically anything that gives you a decent understanding of the topic. Once you get the hang of this, you will start reading documentation instead of tutorials. 
+
+Don't forget you shouldn't spend more than a month for a project. So go through a tutorial, and jump straight into your project.
+
+## Step 4 and Beyond: More Personal Projects
+
+After you are done with the first project, pick a second, after the second pick the third, and so on. The idea is that your projects' difficulty will rise incrementally, so you pick up more and more skills along the way, nudging you closer to your end goal.
+
+This method has several advantages:
+
+1. **No Tutorial Hell.** When you start the project from the beginning, your goal shifts from *learning a technology* to *finishing the project*. This mental shift prevents you from staying in tutorials, because it doesn't get you closer to your goal.
+2. **Motivating.** The middle of the journey is always the hardest. You don't have the same excitement as when you first started, and you are still far from your end goal. But after a few months, you can look back at your past works and easily see the progress you have made, which pushes you forward. That's why you shouldn't start a big ass project right from the start.
+
+## Bonus: Find a Mentor or Learning Buddy
+
+Buddies whom you respect can keep you accountable to your end goal and reduce procrastination. Mentors can do the same, but since they are more experienced, they can offer learning advice and point you to relevant resources. Mentors are invaluable when you learn more advanced concepts, since resources are less readily available.
+
+But you *do not* need a mentor or buddy. I personally didn't have one until my first internship. It could be hard to find a partner if your circle has no developers/self-learners. Partners make your journey easier, but they aren't necessary.
