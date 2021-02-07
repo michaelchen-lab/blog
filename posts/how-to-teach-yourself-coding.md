@@ -14,7 +14,9 @@ Because online guides aren't comprehensive enough. They don't deal with challeng
 3. **Lack of Accountability.** When self-learning, there isn't an exam or employer to force you to learn concepts you detest. The only one who can keep you accountable is yourself.
 4. **Tutorial Hell.** Tutorial hell is the infamous problem where a self-learner watches tutorial after tutorial after tutorial, and never gets to apply those skills.
 
-These challenges combined can overwhelm self-learners, leading to procrastination and never learning to code. This guide outlines a self-learning methodology that specifically aims to solve the above challenges.
+These challenges combined can overwhelm self-learners, leading to procrastination and never learning to code. This guide outlines a self-learning methodology that specifically aims to solve the above challenges. 
+
+So let's get started!
 
 ## Step 1: Define an End Goal
 
