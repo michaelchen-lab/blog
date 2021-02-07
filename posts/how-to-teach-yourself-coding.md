@@ -10,8 +10,11 @@ How did you learn coding yourself? How should I start programming? I hear these 
 Because online guides aren't comprehensive enough. They don't deal with challenges specific to self-learners, which includes:
 
 1. **Lack of Fixed Learning Path.** There isn't a standard curriculum. Self-learning requires you to design your own curriculum.
-2. **Lack of Guidance.** Unlike bootcamps or schools, there isn't a teacher 
+
+2. **Lack of Guidance.** Unlike bootcamps or schools, there isn't a teacher to constantly solve your problems. You have to rely on online forums and largely yourself.
+
 3. **Lack of Accountability.** When self-learning, there isn't an exam or employer to force you to learn concepts you detest. The only one who can keep you accountable is yourself.
+
 4. **Tutorial Hell.** Tutorial hell is the infamous problem where a self-learner watches tutorial after tutorial after tutorial, and never gets to apply those skills.
 
 These challenges combined can overwhelm self-learners, leading to procrastination and never learning to code. This guide outlines a self-learning methodology that specifically aims to solve the above challenges. 
@@ -62,11 +65,30 @@ After you are done with the first project, pick a second, after the second pick 
 
 This method has several advantages:
 
-1. **No Tutorial Hell.** When you start the project from the beginning, your goal shifts from *learning a technology* to *finishing the project*. This mental shift prevents you from staying in tutorials, because it doesn't get you closer to your goal.
-2. **Motivating.** The middle of the journey is always the hardest. You don't have the same excitement as when you first started, and you are still far from your end goal. But after a few months, you can look back at your past works and easily see the progress you have made, which pushes you forward. That's why you shouldn't start a big ass project right from the start.
+### No Tutorial Hell
+
+When you start the project from the beginning, your goal shifts from *learning a technology* to *finishing the project*. This mental shift prevents you from staying in tutorials, because it doesn't get you closer to your goal.
+
+### Motivating
+
+The middle of the journey is always the hardest. You don't have the same excitement as when you first started, and you are still far from your end goal. But after a few months, you can look back at your past works and easily see the progress you have made, which pushes you forward. That's why you shouldn't start a big ass project right from the start.
 
 ## Bonus: Find a Mentor or Learning Buddy
 
 Buddies whom you respect can keep you accountable to your end goal and reduce procrastination. Mentors can do the same, but since they are more experienced, they can offer learning advice and point you to relevant resources. Mentors are invaluable when you learn more advanced concepts, since resources are less readily available.
 
 But you *do not* need a mentor or buddy. I personally didn't have one until my first internship. It could be hard to find a partner if your circle has no developers/self-learners. Partners make your journey easier, but they aren't necessary.
+
+## Miscellaneous
+
+And here are some miscellaneous pieces of advice that doesn't fit in the above steps.
+
+Don't code for more than 5 hours a day. Spending too many hours a day absorbing content leads to less information retained and higher chance of burning out. I personally do not code for more than 4 hours a day. If I go over my limit, I tend to feel burnt out the next day.
+
+It's ok to take several days off. There's nothing wrong with not coding for an entire week if other things in life are getting in the way. If you feel burnt out, take a break, then adjust your self-learning habits to prevent this from happening again.
+
+## Conclusion
+
+I hope this guide has been useful to you. Don't forget that learning to code takes significant time, just like any other skill worth learning. 
+
+So go easy on yourself and have fun learning.
