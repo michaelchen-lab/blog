@@ -1,8 +1,9 @@
 ---
 title: Why Adblocking Is So Problematic
 date: "20210128"
-image: "/avatar.png"
-description: How impacted publishers can deal with adblocking and what we should do about this.
+image: /public/images/uploads/forbes_adblock_wall.png
+description: How impacted publishers can deal with adblocking and what we should
+  do about this.
 ---
 According to Wikipedia, adblocking is a software capability for blocking or altering online ads in a web browser. This often comes in the form of a browser extension, such as [Adblock Plus](https://adblockplus.org/).
 
