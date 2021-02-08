@@ -15,6 +15,7 @@ const Post = ({postData}) => {
 
                 <meta property="og:title" content={postData.title} />
                 <meta property="og:description" content={postData.description} />
+                <meta property="og:image" content={postData.image} />
 
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@michaelchenkj" />

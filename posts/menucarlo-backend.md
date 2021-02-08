@@ -1,6 +1,7 @@
 ---
 title: Designing MenuCarlo's Backend Architecture
 date: "20210126"
+image: "/avatar.png"
 description: MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions.
 ---
 MenuCarlo is an open-source web app which helps F&B owners optimize their menus by analyzing their past customer transactions. During my internship at AI Singapore, I was appointed lead developer of this project. Our goal is to empower small F&B establishments by putting the power of data science in their hands.
