@@ -2,7 +2,7 @@
 title: How to Teach Yourself Coding
 date: "20210207"
 image: /public/images/uploads/person_coding.jpg
-description: A guide to self-learning which fights procrastination and tutorial hell.
+description: Dealing with procrastination and tutorial hell as a self-learner.
 ---
 How did you learn coding yourself? How should I start programming? I hear these questions often enough to warrant a blog post. I'm no expert at data science or web development (yet), but my attempts at self-learning (with only free resources) has gotten me two internships so far. This guide to self-learning is a result of what worked and what didn't work in my experience. 
 
@@ -90,9 +90,9 @@ It's ok to take several days off. There's nothing wrong with not coding for an e
 
 ## Summary
 
-![test](public/images/uploads/infographic.jpg)
+![test](/images/uploads/infographic.jpg)
 
-[Download Infographic](public/images/uploads/self-learning-guide.pdf)
+[Download Infographic](/images/uploads/self-learning-guide.pdf)
 
 ## Conclusion
 
