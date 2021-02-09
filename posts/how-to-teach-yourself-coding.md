@@ -38,6 +38,8 @@ While your end goal need not be hyper-specific, it must be measurable or observa
 
 Words like "good enough" and "proficient" is difficult to measure. Having a vague goal introduces uncertainties into your self-learning journey, making it needlessly harder.
 
+Your end goal may change, and that's fine. When I was just starting out, my end goal was to build my own trading bot which incorporates data science methods. But my focus has shifted to solving inefficiencies with web development and data science. 
+
 ## Step 2: Learn the Basics of a Language
 
 Google for the most popular programming language for area of interest. For example, if your end goal relates to data science, you should pick Python. Then find an online courses/tutorials that teach you the absolute basics of that language. There are a shit load of tutorials for the fundamentals of every major language. Just pick any popular option and start learning.
@@ -63,6 +65,8 @@ Don't forget you shouldn't spend more than a month for a project. So go through 
 ## Step 4 and Beyond: More Personal Projects
 
 After you are done with the first project, pick a second, after the second pick the third, and so on. The idea is that your projects' difficulty will rise incrementally, so you pick up more and more skills along the way, nudging you closer to your end goal.
+
+Pick up 1 or 2 new skills per project. Overly complex projects makes you overwhelmed, while simple projects will make you stagnate. When I built my [personal site](michaelchen.io) with Next.js, I was familiar with React, the main library Next.js relies on, but not Next.js itself. So in this project, I only had to learn 1 major new skill.
 
 This method has several advantages:
 
