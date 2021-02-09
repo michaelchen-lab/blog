@@ -89,9 +89,10 @@ Don't code for more than 5 hours a day. Spending too many hours a day absorbing 
 It's ok to take several days off. There's nothing wrong with not coding for an entire week if other things in life are getting in the way. If you feel burnt out, take a break, then adjust your self-learning habits to prevent this from happening again.
 
 ## Summary
-[Download Infographic in Hi-Res](public/images/uploads/self-learning-guide.pdf)
 
-![test](/images/uploads/infographic_image.png)
+![test](public/images/uploads/infographic.jpg)
+
+[Download Infographic](public/images/uploads/self-learning-guide.pdf)
 
 ## Conclusion
 
