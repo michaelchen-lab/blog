@@ -66,7 +66,7 @@ Don't forget you shouldn't spend more than a month for a project. So go through 
 
 After you are done with the first project, pick a second, after the second pick the third, and so on. The idea is that your projects' difficulty will rise incrementally, so you pick up more and more skills along the way, nudging you closer to your end goal.
 
-Pick up 1 or 2 new skills per project. Overly complex projects makes you overwhelmed, while simple projects will make you stagnate. When I built my [personal site](michaelchen.io) with Next.js, I was familiar with React, the main library Next.js relies on, but not Next.js itself. So in this project, I only had to learn 1 major new skill.
+Pick up 1 or 2 new skills per project. Overly complex projects makes you overwhelmed, while simple projects will make you stagnate. When I built my [personal site](/) with Next.js, I was familiar with React, the main library Next.js relies on, but not Next.js itself. So in this project, I only had to learn 1 major new skill.
 
 This method has several advantages:
 
