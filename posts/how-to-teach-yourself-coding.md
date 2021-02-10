@@ -103,3 +103,7 @@ It's ok to take several days off. There's nothing wrong with not coding for an e
 I hope this guide has been useful to you. Don't forget that learning to code takes significant time, just like any other skill worth learning. 
 
 So go easy on yourself and have fun learning.
+
+---
+
+*You can leave [a comment on Medium](https://michaelchenkj.medium.com/how-to-teach-yourself-coding-a79cbcc8eaec)*
