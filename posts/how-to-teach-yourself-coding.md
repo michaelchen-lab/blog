@@ -42,7 +42,7 @@ Your end goal may change, and that's fine. When I was just starting out, my end 
 
 ## Step 2: Learn the Basics of a Language
 
-Google for the most popular programming language for area of interest. For example, if your end goal relates to data science, you should pick Python. Then find an online courses/tutorials that teach you the absolute basics of that language. There are a shit load of tutorials for the fundamentals of every major language. Just pick any popular option and start learning.
+Google for the most popular programming language for area of interest. For example, if your end goal relates to data science, you should pick Python. Then find an online courses/tutorials that teach you the absolute basics of that language. There is a ton of tutorials for the fundamentals of every major language. Just pick any popular option and start learning.
 
 The goal of this step is to learn the super basic stuff like variables and functions, so aim to finish this in less than 10 hours. Once you can create a simple BMI calculator, move to the next step.
 
