@@ -15,7 +15,7 @@ Despite having no prior research experience, I was thrust into the midst of work
 
 From this 8 months of learning and successes and failures, I've learnt many valuable lessons, many of which are applicable to working in companies and life in general. So here are some of the things I learnt during my internship.
 
-# Play to strengths, but don't neglect weaknesses
+## Play to strengths, but don't neglect weaknesses
 
 Our group's research centers around data collected in collaboration with Forbes Media. Therefore, data science and econometrics (which is the intersection between economics and statistics) played a crucial role in our experiments. However, while I had data science internships in the past, my technical knowledge is nowhere near that of PhD students and professors I was working with. So this was my weakness. My strength was my ability to digest related literature and come up with interesting research questions and hypotheses. 
 
@@ -23,7 +23,7 @@ For example, we initially evaluated our deep learning strategy to deal with ad b
 
 Yet weaknesses cannot be neglected. Strengths allow one to contribute something unique to the team and differentiate one from the rest. But deep weaknesses will nonetheless drag one down. To contribute more constructively to our data experiments, I consistently read up on econometrics and other related statistical techniques. At the end of my internship, while I still had much to learn, but I managed to conduct many of the data experiments in the second paper.
 
-# The importance of crafting a narrative
+## The importance of crafting a narrative
 
 Before my internship, I believed that research was conducting interesting experiments and that research papers are like lab reports. But this couldn't be further from the truth. Data without a story is meaningless. Regardless of the field, all professional papers must contain a narrative or story, which minimally answer the following questions:
 
@@ -38,7 +38,7 @@ Let's say I show that those under 30 years are 50% more likely to use ad-blocker
 
 If academic journals require highly technical research to have a strong narrative, wouldn't this be even more important in a company setting? Being trained in data science and software engineering makes it easy for us to be caught up in technical details and lose sight of the big picture. We should present technical results in the form of narrative when addressing non-technical professionals, rather than using pure statistics. 
 
-# Research is built on failed experiments
+## Research is built on failed experiments
 
 I spent an accumulated 5.5 months on data experiments for the second paper. Yet the experiments included in the final paper took me at best 2 weeks. So where did the other 5 months go? Into failures. For example, I wanted to find out how a particular counter-measure to ad-blocking will affect the engagement of users of varying levels of loyalty differently. To answer my question, I spent a whole month studying and experimenting with *cluster analysis*, a data science technique. However, cluster analysis ended up being too unreliable and did not generate interesting results anyways. I ended up abandoning a month worth of work.
 
@@ -49,6 +49,6 @@ Thomas Edison made 1,000 unsuccessful attempts at inventing the light bulb. When
 
 As anyone can imagine, failed experiments can be incredibly discouraging. But it's important to remember that discovering what doesn't work only increases the chance of finding what works.
 
-# Conclusion
+## Conclusion
 
 Working with highly-talented researchers is a humbling experience. At the same time, the realization that even high school students can contribute to academia also incredibly empowering. I will likely returning to the research group in several months to continue working on these two papers after being reviewed. In the future, I will apply what I've learnt not just in academic settings, but also in commercial projects.
