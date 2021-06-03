@@ -1,5 +1,5 @@
 ---
-title: 3 Things I Learnt From My 8-Month Research Internship
+title: 3 Things I Learnt From My 8 Month Research Internship
 date: "20210603"
 image: /public/images/uploads/supercomputer.png
 description: After interning under the mentorship of professors and PhD
