@@ -39,6 +39,7 @@ const Layout = ({children}) => {
         <>
             <Head>
                 <link rel="icon" href="/favicon/favicon.ico" />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
                 <meta charSet="UTF-8" />
             </Head>
             <div className="">
