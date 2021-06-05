@@ -8,7 +8,7 @@
 
 .unreset blockquote,
 .unreset figure {
-	@apply my-8 mx-10 text-xl;
+	@apply my-6 sm:my-8 mx-10 text-lg sm:text-xl;
 }
 
 .unreset hr {
@@ -20,7 +20,7 @@
 }
 
 .unreset h2 {
-	@apply text-3xl font-bold mt-8 mb-2;
+	@apply text-xl sm:text-3xl font-bold mt-8 mb-2;
 }
 
 .unreset h3 {

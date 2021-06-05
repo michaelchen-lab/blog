@@ -24,11 +24,11 @@ const Post = ({postData}) => {
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <article>
-                        <h1 className="font-bold text-4xl mb-2">{postData.title}</h1>
+                        <h1 className="font-bold text-2xl sm:text-4xl mb-2">{postData.title}</h1>
                         <a className="text-lg text-gray-600">
                             <Date dateString={postData.date} />
                         </a>
-                        <div className={styles.unreset + ' text-lg'}>
+                        <div className={styles.unreset + ' text-base sm:text-lg'}>
                             <Content content={postData.contentHTML} />
                         </div>
                     </article>
@@ -69,7 +69,7 @@ export { getStaticPaths, getStaticProps }
 const Content = ({content}) => {
 
     // Edit unreset.module.css for some default stylings
-    
+
     return (
         <>
             { parse(content, {
