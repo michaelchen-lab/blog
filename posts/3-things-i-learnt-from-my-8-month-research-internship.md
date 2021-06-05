@@ -7,7 +7,7 @@ description: I conducted research under the mentorship of professors and PhD
 ---
 ![](/images/uploads/supercomputer.png)
 
-Image Source: securityboulevard.com
+*Image Source: securityboulevard.com*
 
 I recently concluded my remote internship with a research group at New Jersey Institute of Technology, headed by Prof. Christian Borcea and Prof. Chen Yi. Under their guidance, I worked on two papers which are currently under review. The first concerns a deep learning solution to help online publishers deal with ad-blocker users and the second is a comparative study of the two most common counter-measures to ad-blocker users. I wrote about the issues surrounding ad-blocking in [another blog post](https://michaelchen.io/blog/why-adblocking-is-so-problematic).
 
@@ -47,7 +47,7 @@ For example, I wanted to find out how a particular counter-measure to ad-blockin
 Thomas Edison made 1,000 unsuccessful attempts at inventing the light bulb. When asked how it feels to fail 1,000 times, Edison elegantly replied: "I didn’t fail 1,000 times. The light bulb was an invention with 1,000 steps.". Edison could not have explained my experience better —  research is built on failed experiments. Yes, I did not end up using cluster analysis, but it nudged me towards the right statistical technique to answer my question.
 
 > "I didn’t fail 1,000 times. The light bulb was an invention with 1,000 steps." 
-~ Edison
+> ~ Edison
 
 As anyone can imagine, failed experiments are incredibly discouraging. But discovering what doesn't work only increases the chance of finding what works.
 
