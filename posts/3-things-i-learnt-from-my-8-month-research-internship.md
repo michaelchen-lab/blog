@@ -7,7 +7,7 @@ description: I conducted research under the mentorship of professors and PhD
 ---
 ![](/images/uploads/supercomputer.png)
 
-*[Image Source](https://securityboulevard.com/2020/05/11-plus-supercomputers-hacked-with-cryptominers-by-china/)*
+Image Source: securityboulevard.com
 
 I recently concluded my remote internship with a research group at New Jersey Institute of Technology, headed by Prof. Christian Borcea and Prof. Chen Yi. Under their guidance, I worked on two papers which are currently under review. The first concerns a deep learning solution to help online publishers deal with ad-blocker users and the second is a comparative study of the two most common counter-measures to ad-blocker users. I wrote about the issues surrounding ad-blocking in [another blog post](https://michaelchen.io/blog/why-adblocking-is-so-problematic).
 
