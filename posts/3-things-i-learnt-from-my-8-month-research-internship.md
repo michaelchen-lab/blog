@@ -5,7 +5,7 @@ image: /public/images/uploads/supercomputer.png
 description: I conducted research under the mentorship of professors and PhD
   candidates. Here are some lessons I learnt along the way.
 ---
-![](/public/images/uploads/supercomputer.png)
+![](/images/uploads/supercomputer.png)
 
 *[Image Source](https://securityboulevard.com/2020/05/11-plus-supercomputers-hacked-with-cryptominers-by-china/)*
 
