@@ -19,7 +19,7 @@ const Blog = ({ allPostsData }) => {
                             <Link href={`/blog/${id}`}>
                                 <div className="cursor-pointer">
                                     <h2 className="text-2xl font-semibold cursor-pointer">{title}</h2>
-                                    <p className="text-lg text-base leading-tight text-gray-600 mt-2">{description}</p>
+                                    <p className="text-lg text-base leading-normal text-gray-600 mt-2">{description}</p>
                                 </div>
                             </Link>
                         </div>

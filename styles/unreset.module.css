@@ -3,7 +3,7 @@
 }
 
 .unreset p {
-	@apply my-4;
+	@apply my-4 leading-relaxed;
 }
 
 .unreset blockquote,
@@ -20,7 +20,7 @@
 }
 
 .unreset h2 {
-	@apply text-xl sm:text-3xl font-bold mt-8 mb-2;
+	@apply text-xl sm:text-3xl font-bold mt-10 mb-2;
 }
 
 .unreset h3 {
@@ -1420,11 +1420,11 @@
 
 .unreset ul,
 .unreset menu {
-	@apply list-disc my-1 pl-10;
+	@apply list-disc my-1 pl-10 leading-relaxed;
 }
 
 .unreset ol {
-	@apply list-decimal my-4 pl-10;
+	@apply list-decimal my-4 pl-10 leading-relaxed;
 }
 
 .unreset ul ul,
