@@ -38,7 +38,7 @@ Let's say I show that those under 30 are 50% more likely to use ad-blockers than
 
 If academic journals require highly technical research to have a coherent and interesting story, wouldn't this be even more important in a corporate setting? Being trained in data science and software engineering makes it easy for us to be caught up in technical details and lose sight of the big picture. We should always present technical results through storytelling, especially to non-technical professionals, rather than through pure statistics.
 
-## Research is built on failed experiments
+## Success is built on failures
 
 I spent a total of 5 and a half months on data experiments for the second paper. Yet the experiments included in the final paper took me at best 2 weeks. So where did the other 5 months go? Into failures. 
 
@@ -54,3 +54,7 @@ As anyone can imagine, failed experiments are incredibly discouraging. But disco
 ## Conclusion
 
 Working with highly-talented researchers is a humbling experience. Yet the feeling of contributing to academia as a high school student is rewarding and empowering. I will likely be returning in several months to continue working on ad-blocking research. In the future, I plan to apply what I've learnt not just in academic settings, but also translate this knowledge to life in general, because education is fundamentally about personal growth, not just getting straight As or on-paper experiences.
+
+\---
+
+*Special thanks to Sanjaay Babu for editing this article.*
