@@ -2,8 +2,8 @@
 title: 3 Things I Learnt From My 8 Month Research Internship
 date: "20210603"
 image: /public/images/uploads/supercomputer.png
-description: After interning under the mentorship of professors and PhD
-  candidates, here are some lessons I learnt along the way.
+description: I conducted research under the mentorship of professors and PhD
+  candidates. Here are some lessons I learnt along the way.
 ---
 ![](/public/images/uploads/supercomputer.png)
 
