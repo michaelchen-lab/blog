@@ -1,11 +1,11 @@
 ---
 title: Deploy Django Channels with DigitalOcean App Platform
 date: "20210719"
-image: /public/images/uploads/do_computer.jpg
+image: /public/images/uploads/do_cover.jpg
 description: This tutorial focuses on the ASGI-specific elements of the
   deployment process for Django on DigitalOcean's App Platform.
 ---
-![](/images/uploads/do_computer.jpg)
+![](/images/uploads/do_cover.jpg)
 
 DigitalOcean's App Platform, launched in late 2020, is a modern PaaS solution built for easy deployments. Its biggest competitors are Salesforce's Heroku and AWS. 
 
