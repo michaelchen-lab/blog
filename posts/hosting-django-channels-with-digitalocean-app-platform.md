@@ -2,7 +2,8 @@
 title: Hosting Django Channels with DigitalOcean App Platform
 date: "20210719"
 image: /avatar.png
-description: Hosting Django Channels with DigitalOcean App Platform
+description: This tutorial focuses on the ASGI-specific elements of the
+  deployment process for Django on DigitalOcean's App Platform.
 ---
 DigitalOcean's App Platform, launched in late 2020, is a modern PaaS solution built for easy deployments. Its biggest competitors are Salesforce's Heroku and AWS. 
 
@@ -76,7 +77,7 @@ pip install -U daphne
 
 For Channels to work on App Platform, we need to make sure when the App Platform runs the project, it uses Daphne. Thus, configure your Run Command as such.
 
-![](/images/uploads/do_run_command.png)
+![daphne -b 0.0.0.0 -p 8080 backend.asgi:application](/images/uploads/do_run_command.png)
 
 DigitalOcean allows connections on port 8080 by default and only works on route 0.0.0.0. Also, don't forget to replace `project` with your own Django project's name.
 
@@ -84,7 +85,9 @@ This article, published on DigitalOcean, talks about [deploying Django ASGI on A
 
 ## Deployed!
 
+If your deployment is successful, your deploy logs on DigitalOcean should show something like this.
 
+![Successful deploy log screenshot](/images/uploads/do_deploy_logs.png)
 
 ## Conclusion
 
