@@ -10,7 +10,7 @@ Django, on the other hand, is a well-established Python web framework. Part of t
 
 However, deploying Django Channels require a slightly different configuration. Traditional HTTP can be deployed with WSGI, while Channels requires ASGI due to its asynchronous nature. 
 
-Here's a guide to deploying Django Channels using DigitalOcean App Platform.
+Here's a brief guide on how to deploy Django Channels using DigitalOcean's App Platform.
 
 ## Configuring ASGI
 
@@ -49,11 +49,11 @@ Redis backend serves as a communication layer between the central servers. First
 
 ```
 pip install -U channels_redis
-``` 
+```
 
 Second, add your Redis backend to `settings.py` like so:
 
-```
+```python
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
@@ -76,7 +76,20 @@ pip install -U daphne
 
 For Channels to work on App Platform, we need to make sure when the App Platform runs the project, it uses Daphne. Thus, configure your Run Command as such.
 
+![](/images/uploads/do_run_command.png)
+
+DigitalOcean allows connections on port 8080 by default and only works on route 0.0.0.0. Also, don't forget to replace `project` with your own Django project's name.
+
+This article, published on DigitalOcean, talks about [deploying Django ASGI on App Platform](https://www.digitalocean.com/community/tutorials/how-to-deploy-django-to-app-platform). So long as you replace the WSGI/Gunicorn parts of that tutorial with ASGI/Daphne from this article, it provides useful content on interacting with the App Platform as a Django developer.
+
+## Deployed!
 
 
-Don't forget to replace `project` with your own Django project's name.
 
+## Conclusion
+
+This tutorial focuses on the ASGI-specific elements of the deployment process for Django on DigitalOcean's App Platform. Please check out the following resources for more on this topic:
+
+* [Deploy an WSGI Django App on App Platform](https://www.digitalocean.com/community/tutorials/how-to-deploy-django-to-app-platform)
+* [Channels docs: Deploying](https://channels.readthedocs.io/en/stable/deploying.html)
+* [Django docs: Daphne](https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/daphne/)
