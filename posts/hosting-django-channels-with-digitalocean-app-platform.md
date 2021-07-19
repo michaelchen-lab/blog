@@ -1,5 +1,5 @@
 ---
-title: Hosting Django Channels with DigitalOcean App Platform
+title: Deploy Django Channels with DigitalOcean App Platform
 date: "20210719"
 image: /public/images/uploads/do_computer.jpg
 description: This tutorial focuses on the ASGI-specific elements of the
@@ -85,7 +85,9 @@ DigitalOcean allows connections on port 8080 by default and only works on route 
 
 This article, published on DigitalOcean, talks about [deploying Django ASGI on App Platform](https://www.digitalocean.com/community/tutorials/how-to-deploy-django-to-app-platform). So long as you replace the WSGI/Gunicorn parts of that tutorial with ASGI/Daphne from this article, it provides useful content on interacting with the App Platform as a Django developer.
 
-## Deployed!
+## Deployed
+
+And that's it!
 
 If your deployment is successful, your deploy logs on DigitalOcean should show something like this.
 
