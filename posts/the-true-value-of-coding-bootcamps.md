@@ -4,7 +4,7 @@ date: "20211117"
 image: /avatar.png
 description: "Hint: It isn't education. "
 ---
-![](public/images/uploads/bootcamp.jfif)
+![](/images/uploads/bootcamp.png)
 
 *It isn't education.*
 
