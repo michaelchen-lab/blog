@@ -10,11 +10,11 @@ description: "Hint: It isn't education. "
 
 Take a look at the curriculum of any bootcamp. And you'll find that every piece of content they provide is out there online—for free.
 
-Let's take JavaScript as an example. A Google search for "free JavaScript courses" will give you hundreds...maybe thousands of courses to choose from. Can bootcamps really create JavaScript content that this army of free courses don't have? Probably not.
+Let's use JavaScript as an example. A Google search for "free JavaScript courses" will give you hundreds...maybe thousands of courses to choose from. Can bootcamps really create JavaScript content that this army of free courses don't have? Probably not.
 
 Bootcamps' contents are 99% rehashes of free existing content. Yet they easily cost more than $10,000. It seems insane to pay bootcamps thousands of dollars to teach content that's available for free.
 
-So why do bootcamps still exist? There are 3 reasons.
+So why do bootcamps still exist? There are 3 reasons:
 
 ## Curation
 
@@ -30,10 +30,13 @@ Why? Because they have no accountability mechanism.
 
 Completing a MOOC is a lonely journey—there's no one to help you when you're stuck. No one to encourage you when you feel like giving up. No one to push you to get your shit together. Frankly, it's easier to give up on MOOCs than to continue till the end.
 
-Bootcamps, on the other hand, have a completion rate of 92%. And it's because they keep their students accountable in 2 ways.
+Bootcamps, on the other hand, have a completion rate of 92%. And it's because they keep their students accountable in 3 ways.
 
 * **Instructors** - Providing a "human touch" to a beginner's education is incredibly helpful. Sometimes, all we need is a little push once in a while to keep going. Instructors fulfil this role in bootcamps.
-* **Price** - Bootcamp students pay thousands of dollars upfront (generally), and this sunken cost pushes them to work harder and get their money's worth. So ironically, the money paid is part of the value itself.
+* **Community** - Bootcamps connects one with other students on the same journey as them. In high school and college, we were more motivated when our friends were working, and less so when our friend weren't. Bootcamps cultivate the same environment for you.  
+* **Price** - Bootcamp students pay thousands of dollars upfront (generally), and this sunken cost pushes them to work harder and get their money's worth.
+
+Interestingly, 2 out of 3 accountability mechanisms (i.e. Community and Price) are created by students themselves. Bootcamps are simply the "organizer".
 
 ## Employment Advantages
 
