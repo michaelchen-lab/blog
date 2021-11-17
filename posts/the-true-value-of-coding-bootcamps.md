@@ -4,6 +4,8 @@ date: "20211117"
 image: /avatar.png
 description: "Hint: It isn't education. "
 ---
+![](public/images/uploads/bootcamp.jfif)
+
 *It isn't education.*
 
 Take a look at the curriculum of any bootcamp. And you'll find that every piece of content they provide is out there online—for free.
