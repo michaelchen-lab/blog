@@ -1,9 +1,10 @@
 ---
-title: Accountability as a Service (AaaS)
+title: Introducing Accountability as a Service (AaaS)
 date: "20211118"
 image: /public/images/uploads/accountability.jpg
 description: MOOCs have famously low completion rates, with estimates ranging
-  from 3 to 10%. Here's how AaaS solves this problem.
+  from 3 to 10%. AaaS solves this problem by providing accountability, often in
+  disguise.
 ---
 ![](/images/uploads/accountability.jpg)
 
@@ -11,11 +12,11 @@ MOOCs often taught by industry experts and renown university professors—they a
 
 Yet MOOCs have famously low completion rates, with estimates ranging from 3 to 10%. We all have a few Udemy and Coursera courses sitting around unfinished.
 
-Here's the problem—they have no accountability mechanism.
+Here's the problem—they have **no accountability mechanism**.
 
 The instructor behind the screen can't help when you're stuck. There are no peers to go through the course with you and words of encourage from anyone when things get tough. Completing a MOOC is tough and lonely—it's no wonder we give up so easy.
 
-To solve this, there are several services which provide the much needed accountability mechanism—which I broadly categorize under Accountability as a Service.
+To solve this, there are several types of services which provide the much needed accountability mechanism—which I broadly categorize under Accountability as a Service (or AaaS).
 
 And yes, I just made this term up. But I believe it's necessary because AaaS providers often disguise themselves as something else, which I touch on later in this article.
 
