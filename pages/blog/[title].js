@@ -20,6 +20,7 @@ const Post = ({postData}) => {
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@michaelchenkj" />
                 <meta name="twitter:creator" content="@michaelchenkj" />
+                <meta name="twitter:image" content={postData.image} />
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
