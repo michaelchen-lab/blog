@@ -11,32 +11,37 @@ const About = () => {
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <h1 className="font-serif text-5xl font-semibold">About Me</h1>
-                    <div className="mt-2">
+                    <div className="mt-4">
                         <BioLinks />
                     </div>
                     <section >
                         <p className="text-lg mt-6">
-                            I am a high school student from Raffles Institution in Singapore.
-                            I spend most of my time building web apps, implementing machine learning models, and
-                            reading about statistics.
+                            Hey there! I am a high school student (JC2) from Raffles Institution in Singapore.
+                            Most people know me as the young tech guy working in the education space.
                         </p>
                         <p className="text-lg mt-2">
-                            Many people suffer from the lack of access to opportunities,
-                            and businesses are riddled with inefficiencies. I am passionate about solving
-                            these problems with software development and data science.
+                            The pre-tertiary education system no longer prepares youths well enough to face
+                            tomorrow's challenges. I started a publication to discuss just this. And online learning
+                            is still riddled with problems. My mission is to make education better and more accessible.
                         </p>
                     </section>
                     <section >
                         <h2 className="text-3xl font-semibold mt-6">What I'm Doing Now</h2>
                         <p className="text-lg mt-4">
-                            Alongside balancing school commitments, I'm a <a className="font-medium">research
-                            intern</a> at New Jersey Institute of Technology. Our business data science research team is studying {' '}
-                            the impact of <TextLink to="/blog/why-adblocking-is-so-problematic">ad-blocking</TextLink> {' '}
-                            on publishers and readers, and how publishers can best deal with ad-blocker users.
+                            I spend most of my time working on <TextLink to="https://www.roadmaple.com">RoadMaple</TextLink> and <TextLink to="https://www.echoclass.com">EchoClass</TextLink>.
+                            RoadMaple is an online learning platform to help youths figure out the best way to learn a skill.
+                            EchoClass is an online classroom tool for teachers to track student progress during lessons
                         </p>
                     </section>
                     <section >
                         <h2 className="text-3xl font-semibold mt-6">What I Have Done</h2>
+
+                        <p className="text-lg mt-4">
+                            I was research intern at a business data science research group in New Jersey Institute of Technology.
+                            I co-authored 2 papers on the impact of <TextLink to="/blog/why-adblocking-is-so-problematic">ad-blocking</TextLink> {' '}
+                            on publishers and readers, and how publishers can best deal with ad-blocker users.
+                            Both are under review.
+                        </p>
 
                         <p className="text-lg mt-4">
                             I was a data science intern at <TextLink to="https://www.aisingapore.org/">AI Singapore</TextLink>,

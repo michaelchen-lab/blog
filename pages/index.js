@@ -19,33 +19,35 @@ const Home = () => {
                     <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <div className="col-span-1 md:col-span-4">
                             <h1 className="text-5xl font-semibold">Hello!</h1>
-                            <p className="text-lg md:text-xl text-gray-600 mt-6">
-                                I'm Michael Chen, a high school student from Singapore.
-                                I am passionate about solving problems using software development
-                                and data science.
+                            <p className="text-lg md:text-xl text-gray-800 mt-6">
+                                I'm Michael Chen, a high school student (JC2) from Singapore.
+                                I am passionate about solving problems in the education space
+                                using web development and data science.
                             </p>
 
-                            <div className="mt-8">
+                            <div className="mt-6">
                                 <BioLinks />
                             </div>
                         </div>
                         <div className="col-span-1 md:col-span-2 mx-auto">
-                            <img src="/avatar.png" alt="Michael's Avatar" width="220" height="300"
+                            <img src="/avatar_michael.png" alt="Michael's Avatar" width="220" height="300" style={{borderRadius: "50%"}}
                             />
                         </div>
 
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
-                                I am part of an academic research team studying the <TextLink to="/blog/why-adblocking-is-so-problematic">problems of ad-blocking</TextLink> {' '}
-                                from a publisher's perspective. Also, I am starting a personal project aimed at helping developers find code buddies, mentors and mentees.
+                                I am a co-founder at <TextLink to="https://www.roadmaple.com">RoadMaple</TextLink>,
+                                an edtech company to help youths learn online.
+                                I'm also the creator of <TextLink to="https://www.echoclass.com">EchoClass</TextLink>,
+                                a classroom tool to help teacher keep track of student progress during lessons.
                             </SectionDescription>
                         </Section>
                         <Section>
                             <SectionTitle to="/blog" name="Blog" />
                             <SectionDescription>
-                                I write about web development, data science and econometrics, amongst
-                                other things. You can read my writing <TextLink to="/blog">here</TextLink>.
+                                I write about education, technology, and productivity, amongst
+                                other things that I fancy. Most of my writings are on Medium <TextLink to="https://medium.com/@michaelchenkj">here</TextLink>.
                             </SectionDescription>
                         </Section>
                         <Section>
@@ -53,7 +55,7 @@ const Home = () => {
                             <SectionDescription>
                                 You can find out more about my interests and what I'm doing now in my <TextLink to="/about">bio</TextLink>.
                                 Feel free to reach out via <TextLink to="mailto:michaelchenkaijie2004@gmail.com">email</TextLink> {' '}
-                                or LinkedIn.
+                                or <TextLink to="https://www.linkedin.com/in/michael-chen-kj/">LinkedIn</TextLink>.
                             </SectionDescription>
                         </Section>
                     </div>

@@ -50,7 +50,7 @@ const SectionTitle = ({ to, name }) => {
 
 const SectionDescription = ({ children }) => {
     return (
-        <p className="text-base md:text-lg text-justify">
+        <p className="text-base md:text-lg text-justify text-gray-700">
             { children }
         </p>
     )
@@ -66,23 +66,23 @@ const BioLinks = () => {
     })
 
     return (
-        <div className="flex flex-row">
-            <div className="mr-6">
-                <a
-                    className="flex items-center text-gray-600 font-semibold"
-                    href="https://github.com/michaelchen-lab"
-                >
-                    <img className="h-4 mr-2" src="/github-icon.svg" alt="github" width="20" height="20"/>
-                    <span>Github</span>
-                </a>
-            </div>
+        <div className="flex flex-row text-md">
             <div className="mr-6">
                 <a
                     className="flex items-center text-gray-600 font-semibold"
                     href="https://www.linkedin.com/in/michael-chen-kj/"
                 >
-                    <img className="h-4 mr-2" src="/linkedin-icon.svg" alt="linkedin" width="20" height="20"/>
+                    <img className="h-6 mr-2" src="/linkedin-icon.svg" alt="linkedin" width="25" height="25"/>
                     <span>LinkedIn</span>
+                </a>
+            </div>
+            <div className="mr-6">
+                <a
+                    className="flex items-center text-gray-600 font-semibold"
+                    href="https://github.com/michaelchen-lab"
+                >
+                    <img className="h-6 mr-2" src="/github-icon.svg" alt="github" width="25" height="25"/>
+                    <span>Github</span>
                 </a>
             </div>
             <div>
@@ -91,7 +91,7 @@ const BioLinks = () => {
                         className="flex items-center text-gray-600 font-semibold"
                         href="resume.pdf" download
                     >
-                        <img className="h-4 mr-2" src="/resume-icon.svg" alt="linkedin" width="20" height="20"/>
+                        <img className="h-6 mr-2" src="/resume-icon.svg" alt="linkedin" width="25" height="25"/>
                         <span>Resume</span>
                     </a>
                 ) : (
@@ -99,7 +99,7 @@ const BioLinks = () => {
                         <a
                             className="flex items-center text-gray-600 font-semibold"
                         >
-                            <img className="h-4 mr-2" src="/resume-icon.svg" alt="linkedin" width="20" height="20"/>
+                            <img className="h-6 mr-2" src="/resume-icon.svg" alt="linkedin" width="25" height="25"/>
                             <span>Resume</span>
                         </a>
                     </Link>
