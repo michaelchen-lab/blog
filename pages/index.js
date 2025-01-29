@@ -20,9 +20,8 @@ const Home = () => {
                         <div className="col-span-1 md:col-span-4">
                             <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-800 mt-6">
-                                I'm Michael Chen, a high school student (JC2) from Singapore.
-                                I am passionate about solving problems in the education space
-                                using web development and data science.
+                                I'm Michael Chen, an incoming undergraduate at National University of Singapore.
+                                I am passionate about machine learning and AI research.
                             </p>
 
                             <div className="mt-6">
@@ -30,10 +29,17 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-span-1 md:col-span-2 mx-auto">
-                            <img src="/avatar_michael.png" alt="Michael's Avatar" width="220" height="300" style={{borderRadius: "50%"}}
+                            <img src="/avatar_michael.jpg" alt="Michael's Avatar" width="220" height="300" style={{borderRadius: "50%"}}
                             />
                         </div>
 
+                        <Section>
+                            <SectionTitle to="/projects" name="Research" />
+                            <SectionDescription>
+                                My current research interests are Large Language Models (LLM), especially in reasoning and novel architecture designs, and causal inference in 
+                                management information systems. My works can be found <TextLink to="/publications">here</TextLink>.
+                            </SectionDescription>
+                        </Section>
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>

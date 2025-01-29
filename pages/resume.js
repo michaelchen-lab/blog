@@ -21,7 +21,8 @@ const Resume = () => {
                     <div className="w-full">
                         { (!(isMobile)) ? (
                             <Document file="/resume.pdf" renderMode="svg" onLoadError={console.error}>
-                                <Page pageNumber={1} width={736} />
+                                <Page pageNumber={1} width={736} renderAnnotationLayer={false} />
+                                <Page pageNumber={2} width={736} renderAnnotationLayer={false} />
                             </Document>
                         ) : (
                             <h1 className="font-serif text-5xl font-semibold mb-10">Resume</h1>

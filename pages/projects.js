@@ -12,7 +12,63 @@ const Projects = () => {
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <h1 className="font-serif text-5xl font-semibold">Projects</h1>
                     <section className="mt-8">
-                        <SectionTitle name="MenuCarlo" />
+                        <div class="flex flex-row">
+                                <a
+                                    className="flex items-center text-gray-600 font-semibold pb-4 pr-2" 
+                                    href="https://roadmaple.com" target="_blank"
+                                >
+                                        <img src="roadmaple-logo.png" alt="roadmaple-logo" width="40" height="40" />
+                                </a>
+                                <SectionTitle name="RoadMaple" />
+                        </div>
+                        <p className="text-lg mt-2">
+                            Why do so many people who try to self-learning coding online give up? Surely, it isn't due to a lack of resources;
+                            in fact, the problem is the exact opposite: there are too many resources, leading to confusion and cognitive overload.
+                        </p>
+                        <p className="text-lg mt-2">
+                            RoadMaple provides free, simple roadmaps that inform beginners how to learn various skills. A roadmap is a curriculum of 
+                            a particular skill, which includes expert recommendations of the most suitable online resources.
+                        </p>
+                        <p className="text-lg mt-2">
+                            Thus far, we have raised 20,000 USD in government funding to develop our project. We have also reached over 4,200 users.
+                        </p>
+                        <p className="mt-4 mb-8">
+                            <TextLink to="https://roadmaple.com">Website</TextLink> · {' '}
+                            <TextLink to="https://www.youtube.com/watch?v=cVn-e6C2_kk">Pitch</TextLink>
+                        </p>
+                        <div class="flex flex-row">
+                            <a
+                                className="flex items-center text-gray-600 font-semibold pb-4 pr-2" 
+                                href="https://www.echoclass.com/" target="_blank"
+                            >
+                                    <img src="echoclass-logo.png" alt="echoclass-logo" width="40" height="40" />
+                            </a>
+                            <SectionTitle name="EchoClass" />
+                        </div>
+                        <p className="text-lg mt-2">
+                            Short-term coding courses struggle to find suitable learning management systems (LMS). They are too expensive, too cumbersome,
+                            and too complicated.
+                        </p>
+                        <p className="text-lg mt-2">
+                            EchoClass is an easy-to-use LMS that enables teachers to track student progress during lessons and increase engagement.
+                        </p>
+                        <p className="text-lg mt-2">
+                            This project is funded and supported by <TextLink to="https://tinkertanker.com/">Tinkertanker</TextLink>, a prominent code academy in Singapore.
+                        </p>
+                        <p className="mt-4 mb-8">
+                            <TextLink to="https://www.echoclass.com/">Website</TextLink> · {' '}
+                            <TextLink to="https://www.youtube.com/watch?v=b8dXJj7T170&ab_channel=MichaelChen">Youtube Demo</TextLink>
+                        </p>
+                        <div class="flex flex-row">
+                            <a
+                                className="flex items-center text-gray-600 font-semibold pb-4 pr-2" 
+                                href="https://github.com/michaelchen-lab/menucarlo-backend" target="_blank"
+                            >
+                                    <img src="menucarlo-logo.png" alt="menucarlo-logo" width="30" height="30" />
+                            </a>
+                            <SectionTitle name="MenuCarlo" />
+                        </div>
+                        
                         <p className="text-lg mt-2">
                             Data is the new oil. Yet small F&B businesses fail to harness their data's potential
                             due to lack of manpower and expertise. This project aims to
@@ -27,7 +83,15 @@ const Projects = () => {
                             <TextLink to="/blog/menucarlo-backend">Backend Architecture</TextLink> · {' '}
                             <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">Source Code</TextLink>
                         </p>
-                        <SectionTitle name="FastDash" />
+                        <div class="flex flex-row">
+                            <a
+                                className="flex items-center text-gray-600 font-semibold pb-4 pr-2" 
+                                href="https://github.com/michaelchen-lab/fastdash" target="_blank"
+                            >
+                                    <img src="fastdash-logo.png" alt="fastdash-logo" width="40" height="40" />
+                            </a>
+                            <SectionTitle name="FastDash" />
+                        </div>
                         <p className="text-lg mt-2">
                             Most people rely on Excel to create dashboards. But sharing with others is cumbersome,
                             since the whole file must be sent via email. And Excel's graph are not visually appealing by default.
@@ -42,20 +106,6 @@ const Projects = () => {
                             <TextLink to="https://www.youtube.com/watch?v=sZFrC2hdzlY&ab_channel=michaelchen">Demo</TextLink> · {' '}
                             <TextLink to="https://github.com/michaelchen-lab/menucarlo-backend">Source Code</TextLink>
                         </p>
-                    </section>
-                    <section>
-                        <div className="grid grid-cols-1 md:grid-cols-2 items-center min-w-full mt-10 mb-10 px-4 py-4 gap-4">
-                            <div className="col-span-1 mx-auto">
-                                <a href="https://github.com/michaelchen-lab/menucarlo-backend" target="_blank">
-                                    <img className="rounded-full shadow-xl" src="menucarlo-logo.png" alt="menucarlo-logo" width="200" height="200" />
-                                </a>
-                            </div>
-                            <div className="col-span-1 mx-auto">
-                                <a href="https://github.com/michaelchen-lab/fastdash" target="_blank">
-                                    <img className="shadow-lg" src="fastdash-logo.png" alt="fastdash-logo" width="200" height="200"/>
-                                </a>
-                            </div>
-                        </div>
                     </section>
                     <section>
                         <h2 className="text-xl font-semibold">Other Projects</h2>

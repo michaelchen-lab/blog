@@ -16,21 +16,22 @@ const About = () => {
                     </div>
                     <section >
                         <p className="text-lg mt-6">
-                            Hey there! I am a high school student (JC2) from Raffles Institution in Singapore.
-                            Most people know me as the young tech guy working in the education space.
+                            Hey there! I am an incoming undergraduate at the National University of Singapore.
+                            I previously was a software developer and founder in the EdTech space. Currently,
+                            I am working on AI research.
                         </p>
                         <p className="text-lg mt-2">
-                            The pre-tertiary education system no longer prepares youths well enough to face
-                            tomorrow's challenges. I started a publication to discuss just this. And online learning
-                            is still riddled with problems. My mission is to make education better and more accessible.
+                            Large language model (LLM) advancements recently have predominantly focused on scaling 
+                            and prompt engineering. I believe there are other architectures also worth exploring,
+                            that may lead to better reasoning, creativity, and efficiency. 
                         </p>
                     </section>
                     <section >
                         <h2 className="text-3xl font-semibold mt-6">What I'm Doing Now</h2>
                         <p className="text-lg mt-4">
-                            I spend most of my time working on <TextLink to="https://www.roadmaple.com">RoadMaple</TextLink> and <TextLink to="https://www.echoclass.com">EchoClass</TextLink>.
-                            RoadMaple is an online learning platform to help youths figure out the best way to learn a skill.
-                            EchoClass is an online classroom tool for teachers to track student progress during lessons
+                            I am working on Prof. Tao Dacheng and Dr. Zhang Xikun from Nanyang Technological University
+                            on large language model research. Specifically, we are exploring reasoning, continual learning,
+                            and multi-token prediction.
                         </p>
                     </section>
                     <section >
@@ -61,8 +62,8 @@ const About = () => {
                     <section >
                         <h2 className="text-3xl font-semibold mt-6">Other Things I Enjoy</h2>
                         <p className="text-lg mt-4">
-                            I read about philosophy, economic history and cliodynamics. When I'm procrastinating,
-                            I watch anime and play chess. But honestly, nothing beats sleeping.
+                            I read about philosophy, economic history and cliodynamics. I like sports:
+                            long-distance running, tennis, and boxing are my favourites.
                         </p>
                     </section>
                 </div>
