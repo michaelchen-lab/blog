@@ -126,10 +126,12 @@ const MobileNavMenu = ({ isOpen, setIsOpen }) => {
 
 const MobileNavItem = ({ to, name }) => {
     return (
-        <Link href={to}>
+        
             <div className="bg-white min-w-full text-center py-4 border-b">
+                <Link href={to}>
                 <p className="text-gray-600 font-medium">{name}</p>
+                </Link>
             </div>
-        </Link>
+        
     )
 }
