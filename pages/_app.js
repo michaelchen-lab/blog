@@ -46,9 +46,9 @@ const Layout = ({children}) => {
                 <header className="container mx-auto max-w-7xl">
                     <div className="flex px-6 pt-6 pb-4 border-b">
                         <Link href="/">
-                            <a className="font-serif text-xl md:text-xl lg:text-2xl">
+                            <p className="font-serif text-xl md:text-xl lg:text-2xl">
                                 MICHAEL<b>CHEN</b>
-                            </a>
+                            </p>
                         </Link>
                         <DesktopNav />
                         <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -83,10 +83,8 @@ const DesktopNav = () => {
 
 const DesktopNavItem = ({to, name}) => {
     return (
-        <Link href={to}>
-            <a className="text-sm md:text-base lg:text-lg px-6 text-gray-600 hover:text-black">
+        <Link href={to} className="text-sm md:text-base lg:text-lg px-6 text-gray-600 hover:text-black">
                 {name}
-            </a>
         </Link>
     )
 }
@@ -130,7 +128,7 @@ const MobileNavItem = ({ to, name }) => {
     return (
         <Link href={to}>
             <div className="bg-white min-w-full text-center py-4 border-b">
-                <a className="text-gray-600 font-medium">{name}</a>
+                <p className="text-gray-600 font-medium">{name}</p>
             </div>
         </Link>
     )

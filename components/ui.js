@@ -14,8 +14,8 @@ const TextLink = ({to, children}) => {
                 >{children}</a>
             ) : (
                 // Internal links: Open in current tab
-                <Link href={to}>
-                    <a className="text-blue-700 hover:underline">{children}</a>
+                <Link href={to} className="text-blue-700 hover:underline">
+                    {children}
                 </Link>
             )}
         </>
@@ -39,7 +39,7 @@ const SectionTitle = ({ to, name }) => {
     if (to) {
         return (
             <Link href={to}>
-                <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name} ></h2>
+                <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name}</h2>
             </Link>
         )
     } else {
@@ -96,12 +96,12 @@ const BioLinks = () => {
                     </a>
                 ) : (
                     <Link href="/resume">
-                        <a
+                        <div
                             className="flex items-center text-gray-600 font-semibold"
                         >
                             <img className="h-6 mr-2" src="/resume-icon.svg" alt="linkedin" width="25" height="25"/>
                             <span>Resume</span>
-                        </a>
+                        </div>
                     </Link>
                 )}
 
