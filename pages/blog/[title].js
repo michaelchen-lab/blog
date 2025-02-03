@@ -91,13 +91,33 @@ const Content = ({content}) => {
                     }
 
                     // Add styling to blockquote
-                    if (name === 'blockquote') {
+                    if (name === 'h3') {
                         return (
-                            <blockquote className="italic border-l-4 border-gray-500 pl-4">
+                            <p className="text-lg sm:text-xl font-bold">
                                 { domToReact(children) }
-                            </blockquote>
+                            </p>
+                        )
+                    } 
+                    else if (name === 'table') {
+                        return (
+                            <div className="flex justify-center">
+                                <table className="text-sm text-center rtl:text-right">
+                                    { domToReact(children) }
+                                </table>
+                            </div>
                         )
                     }
+                    // else if (name === 'p') {
+                    //     // console.log('p hit')
+                    //     if (children[0].data) {
+                    //         if ((children[0].data.slice(0,1) === '|') && (children[0].data.slice(-1) === '|')) {
+                    //             console.log(domToReact(children))
+                    //             return (
+                    //                 <Markdown remarkPlugins={[remarkGfm]}>{domToReact(children)}</Markdown>
+                    //             )
+                    //         }
+                    //     }
+                    // }
                 }
             })}
         </>

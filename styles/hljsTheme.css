@@ -4,12 +4,19 @@ Original theme - Ocean Dark Theme – by https://github.com/gavsiu
 Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/JesseLeite/an-old-hope-syntax-atom
 */
 
-code:not(.hljs) {
+code:not(.hljs):not(.language-math) {
     background: #1E1E1E;
     color: white;
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    font-family: monospace
+}
+
+code:is(:not(.hljs), .language-math) {
+  background: #ffffff;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 code.hljs {
