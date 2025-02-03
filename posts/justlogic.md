@@ -1,7 +1,7 @@
 ---
 title: Are reasoning benchmarks today actually reliable? Introducing the JustLogic benchmark
 date: "20250203"
-image: /public/images/uploads/justlogic_method.png
+image: michaelchen.io/images/uploads/justlogic_method.png
 description: JustLogic, a benchmark to measure deductive reasoning capabilities of LLMs, that is more challenging, reliable, and insightful than existing benchmarks.
 ---
 Logical reasoning is a critical component of Large Language Models (LLMs), and substantial research efforts in recent years have aimed to enhance their deductive reasoning capabilities. However, existing deductive reasoning benchmarks, which are crucial for evaluating and advancing LLMs, are inadequate. 

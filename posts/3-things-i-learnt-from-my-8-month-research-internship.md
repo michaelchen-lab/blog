@@ -1,7 +1,7 @@
 ---
 title: 3 Things I Learnt From My 8 Month Research Internship
 date: "20210605"
-image: /public/images/uploads/supercomputer.png
+image: michaelchen.io/images/uploads/supercomputer.png
 description: I conducted research under the mentorship of professors and PhD
   candidates. Here are some lessons I learnt along the way.
 ---

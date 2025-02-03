@@ -1,7 +1,7 @@
 ---
 title: "Accountability-as-a-Service: The Missing Piece to Online Education"
 date: "20211201"
-image: /public/images/uploads/accountability.jpg
+image: michaelchen.io/images/uploads/accountability.jpg
 description: MOOCs have famously low completion rates, with estimates ranging
   from 3 to 10%. AaaS solves this problem by providing accountability, and often
   in disguise.

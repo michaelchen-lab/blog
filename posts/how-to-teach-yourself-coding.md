@@ -1,7 +1,7 @@
 ---
 title: How to Teach Yourself Coding
 date: "20210207"
-image: /public/images/uploads/person_coding.jpg
+image: michaelchen.io/images/uploads/person_coding.jpg
 description: How I dealt with procrastination and tutorial hell as a self-learner.
 ---
 How did you learn coding yourself? How should I start programming? I hear these questions often enough to warrant a blog post. I'm no expert at data science or web development (yet), but my attempts at self-learning (with only free resources) has gotten me two internships so far. This guide to self-learning is a result of what worked and what didn't work in my experience. 

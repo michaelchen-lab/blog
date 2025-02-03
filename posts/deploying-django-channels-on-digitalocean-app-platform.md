@@ -1,7 +1,7 @@
 ---
 title: Deploying Django Channels on DigitalOcean App Platform
 date: "20210719"
-image: /public/images/uploads/do_cover.jpg
+image: michaelchen.io/images/uploads/do_cover.jpg
 description: This tutorial focuses on the ASGI-specific elements of the
   deployment process for Django on DigitalOcean's App Platform.
 ---
