@@ -92,7 +92,7 @@ Model accuracy for JustLogic, if the context is not provided, is extremely simil
 ### Natural language complexity
 JustLogic is also more linguistically complex than other deductive reasoning datasets, even human-curated ones, thanks to its use of GenericsKB sentences.
 
-| ‎            | Reading Difficulty | Vocabulary | No. of Domains |
+| ‎    | Reading Difficulty | Vocabulary | No. of Domains |
 |-------------|--------------------|------------|----------------|
 | CLUTRR      | 6.67               | 1396       | 1              |
 | ProofWriter | 0.96               | 101        | ✖               |

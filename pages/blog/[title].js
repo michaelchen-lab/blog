@@ -100,10 +100,12 @@ const Content = ({content}) => {
                     } 
                     else if (name === 'table') {
                         return (
-                            <div className="flex justify-center">
-                                <table className="text-sm text-center rtl:text-right">
+                            <div className="w-full max-w-full sm:w-auto overflow-x-auto flex justify-center">
+                                <div class="inline-block min-w-full sm:w-auto sm:flex sm:justify-center">
+                                <table className="min-w-max w-full sm:w-auto text-sm text-center rtl:text-right">
                                     { domToReact(children) }
                                 </table>
+                                </div>
                             </div>
                         )
                     }
