@@ -65,7 +65,9 @@ JustLogic is synthetically generated, and the steps to generate each instance ar
 
 **Step 2: Add natural language statements to the argument structure.** Logical forms, e.g. $x → y$, are first replaced using manually curated templates, e.g. "So long as $x$, then we know $y$. Then, the symbols, e.g. $x$ and $y$, are replaced with random natural language statements from GenericsKB-Best [6], a database of 1M+ unique real-world sentences. 
 
-Note that these statements are generally factually inaccurate. This is intentional in order to ensure prior knowledge cannot be used to answer the question. At the same time, the use of real-world sentences increases the natural language complexity of JustLogic.
+Note that these statements are generally factually inaccurate, e.g. the statement "If whales are blue, then Porsche cars are not pink.". This is intentional in order to ensure that if models attempt to use prior knowledge, they will arrive at the wrong answer.
+
+At the same time, the use of real-world sentences increases the natural language complexity of JustLogic.
 
 **Step 3: Generate a query statement.** The LLM’s task is to determine whether the given query statement is true, false, or uncertain based on the premises provided.
 
