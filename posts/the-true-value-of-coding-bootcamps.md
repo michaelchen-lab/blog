@@ -1,7 +1,7 @@
 ---
 title: The True Value of Coding Bootcamps
 date: "20211117"
-image: michaelchen.io/images/uploads/bootcamp.png
+image: https://www.michaelchen.io/images/uploads/bootcamp.png
 description: "Hint: It isn't education. "
 ---
 ![](/images/uploads/bootcamp.png)

@@ -1,7 +1,7 @@
 ---
 title: Why Adblocking Is So Problematic
 date: "20210128"
-image: michaelchen.io/images/uploads/forbes_adblock_wall.png
+image: https://www.michaelchen.io/images/uploads/forbes_adblock_wall.png
 description: How impacted publishers can deal with adblocking and what we should
   do about this.
 ---

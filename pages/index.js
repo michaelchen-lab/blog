@@ -60,7 +60,7 @@ const Home = () => {
                             <SectionTitle to="/about" name="About" />
                             <SectionDescription>
                                 You can find out more about my interests and what I'm doing now in my <TextLink to="/about">bio</TextLink>.
-                                Feel free to reach out via <TextLink to="mailto:michaelchenkaijie2004@gmail.com">email</TextLink> {' '}
+                                Feel free to reach out via <TextLink to="mailto:hello@michaelchen.io">email</TextLink> {' '}
                                 or <TextLink to="https://www.linkedin.com/in/michael-chen-kj/">LinkedIn</TextLink>.
                             </SectionDescription>
                         </Section>
