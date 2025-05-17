@@ -43,6 +43,23 @@ const Publications = () => {
                         </div>
                     </section>
                 </div>
+                <div className="container mx-auto max-w-3xl mt-12 px-4">
+                    <h1 className="text-2xl font-semibold">Works In Progress</h1>
+                    <section className="mt-8">
+                        <div class="grid sm:grid-cols-3 grid-cols-1 gap-4">
+                            <img className="col-span-1 mb-8" src="medreason-rx.png" alt="medreason-rx-graphic"/>
+                            <div className='col-span-2'>
+                                <h1 className='text-lg leading-5 font-bold mb-2'>MedReason-Dx: Benchmarking Step-by-Step Reasoning of Language Models in Medical Diagnosis</h1>
+                                <p>MedReason-Dx Team</p>
+                                <p className='italic text-sm'>Preprint</p>
+                                <p className="mt-2">
+                                    <TextLink to="https://imzhangxikun.github.io/MedReasonDx_Benchmarking_Step_by_Step_Reasoning_of_Language_Models_in_Medical_Diagnosis/">Website</TextLink> · {' '}
+                                    <TextLink to="https://github.com/imZHANGxikun/MedReasonDx_Benchmarking_Step_by_Step_Reasoning_of_Language_Models_in_Medical_Diagnosis?tab=readme-ov-file">Github</TextLink>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </main>
             <footer className="mt-10">
             </footer>

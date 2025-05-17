@@ -20,8 +20,8 @@ const Home = () => {
                         <div className="col-span-1 md:col-span-4">
                             <h1 className="text-5xl font-semibold">Hello!</h1>
                             <p className="text-lg md:text-xl text-gray-800 mt-6">
-                                I'm Michael Chen, an incoming undergraduate at National University of Singapore.
-                                I am passionate about machine learning and AI research.
+                                I'm Michael Chen, an incoming undergraduate at UC San Diego.
+                                Working on ML research at Stanford and Nanyang Technological University.
                             </p>
 
                             <div className="mt-6">
@@ -36,14 +36,14 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/projects" name="Research" />
                             <SectionDescription>
-                                My current research interests are Large Language Models (LLM), especially in reasoning and novel architecture designs, and causal inference in 
-                                management information systems. My works can be found <TextLink to="/publications">here</TextLink>.
+                                I am working on Large Language Models (LLM), especially in reasoning and novel architecture designs. I also work on causal inference in 
+                                management information systems. More details <TextLink to="/publications">here</TextLink>.
                             </SectionDescription>
                         </Section>
                         <Section>
                             <SectionTitle to="/projects" name="Projects" />
                             <SectionDescription>
-                                I am a co-founder at <TextLink to="https://www.roadmaple.com">RoadMaple</TextLink>,
+                                I co-founded <TextLink to="https://www.roadmaple.com">RoadMaple</TextLink>,
                                 an edtech company to help youths learn online.
                                 I'm also the creator of <TextLink to="https://www.echoclass.com">EchoClass</TextLink>,
                                 a classroom tool to help teacher keep track of student progress during lessons.

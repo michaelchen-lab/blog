@@ -50,7 +50,7 @@ const SectionTitle = ({ to, name }) => {
 
 const SectionDescription = ({ children }) => {
     return (
-        <p className="text-base md:text-lg text-justify text-gray-700">
+        <p className="text-base md:text-md text-justify text-gray-700">
             { children }
         </p>
     )

@@ -16,7 +16,7 @@ const About = () => {
                     </div>
                     <section >
                         <p className="text-lg mt-6">
-                            Hey there! I am an incoming undergraduate at the National University of Singapore.
+                            Hey there! I am an incoming undergraduate at UC San Diego.
                             I previously was a software developer and founder in the EdTech space. Currently,
                             I am working on AI research.
                         </p>
@@ -31,7 +31,8 @@ const About = () => {
                         <p className="text-lg mt-4">
                             I am working on Prof. Tao Dacheng and Dr. Zhang Xikun from Nanyang Technological University
                             on large language model research. Specifically, we are exploring reasoning, continual learning,
-                            and multi-token prediction.
+                            and multi-token prediction. I also work with Dr. Felix Petersen from Stanford University on
+                            differentiable logic gate networks.
                         </p>
                     </section>
                     <section >
