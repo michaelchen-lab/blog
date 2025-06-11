@@ -17,7 +17,7 @@ const Publications = () => {
                             <img className="col-span-1 mb-8" src="caft.png" alt="caft-graphic"/>
                             <div className='col-span-2'>
                                 <h1 className='text-lg leading-5 font-bold mb-2'>Improving large language models with concept-aware fine-tuning</h1>
-                                <p><span className='font-bold'>Michael K. Chen</span>, Xikun Zhang, Jiaxing Huang, Dacheng Tao</p>
+                                <p><span className='font-semibold'>Michael K. Chen</span>, Xikun Zhang, Jiaxing Huang, Dacheng Tao</p>
                                 <p className='italic text-sm'>Preprint</p>
                                 <p className="mt-2">
                                     <TextLink to="https://www.arxiv.org/abs/2506.07833">Paper</TextLink> · {' '}
@@ -27,7 +27,7 @@ const Publications = () => {
                             <img className="col-span-1 mb-8" src="justlogic.png" alt="justlogic-graphic"/>
                             <div className='col-span-2'>
                                 <h1 className='text-lg leading-5 font-bold mb-2'>JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models</h1>
-                                <p><span className='font-bold'>Michael K. Chen</span>, Xikun Zhang, Dacheng Tao</p>
+                                <p><span className='font-semibold'>Michael K. Chen</span>, Xikun Zhang, Dacheng Tao</p>
                                 <p className='italic text-sm'>Preprint</p>
                                 <p className="mt-2">
                                     <TextLink to="https://arxiv.org/abs/2501.14851">Paper</TextLink> · {' '}
@@ -37,13 +37,13 @@ const Publications = () => {
                             <img className="col-span-1 mb-8" src="dss-paper.jpg" alt="dss-graphic"/>
                             <div className='col-span-2'>
                                 <h1 className='text-lg leading-5 font-bold mb-2'>A Field Study on the Impact of the Counter Ad-Blocking Wall Strategy on User Engagement</h1>
-                                <p><span className='font-bold'>Michael K. Chen</span>, Shuai Zhao, Christian Borcea, Yi Chen</p>
+                                <p><span className='font-semibold'>Michael K. Chen</span>, Shuai Zhao, Christian Borcea, Yi Chen</p>
                                 <p className='italic text-sm'>Under review at Decision Support Systems</p>
                             </div>
                             <img className="col-span-1" src="tkde-paper-1.png" alt="tkde-paper-graphic"/>
                             <div className='col-span-2'>
                                 <h1 className='text-lg leading-5 font-bold mb-2'>Personalized Dynamic Counter Ad-Blocking Using Deep Learning</h1>
-                                <p>Shuai Zhao, <span className='font-bold'>Michael K. Chen</span>, Christian Borcea, Yi Chen</p>
+                                <p>Shuai Zhao, <span className='font-semibold'>Michael K. Chen</span>, Christian Borcea, Yi Chen</p>
                                 <p className='italic text-sm'>Published in IEEE Transactions on Knowledge and Data Engineering</p>
                                 <p className="mt-2">
                                     <TextLink to="/tkde-paper-1.pdf">Paper</TextLink> · {' '}
