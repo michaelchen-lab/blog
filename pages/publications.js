@@ -14,6 +14,16 @@ const Publications = () => {
                     <p className='text-sm italic'>*Equal contribution</p>
                     <section className="mt-8">
                         <div class="grid sm:grid-cols-3 grid-cols-1 gap-4">
+                            <img className="col-span-1 mb-8" src="caft.png" alt="caft-graphic"/>
+                            <div className='col-span-2'>
+                                <h1 className='text-lg leading-5 font-bold mb-2'>Improving large language models with concept-aware fine-tuning</h1>
+                                <p><span className='font-bold'>Michael K. Chen</span>, Xikun Zhang, Jiaxing Huang, Dacheng Tao</p>
+                                <p className='italic text-sm'>Preprint</p>
+                                <p className="mt-2">
+                                    <TextLink to="https://www.arxiv.org/abs/2506.07833">Paper</TextLink> · {' '}
+                                    <TextLink to="https://github.com/michaelchen-lab/caft-llm">Github</TextLink>
+                                </p>
+                            </div>
                             <img className="col-span-1 mb-8" src="justlogic.png" alt="justlogic-graphic"/>
                             <div className='col-span-2'>
                                 <h1 className='text-lg leading-5 font-bold mb-2'>JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models</h1>
