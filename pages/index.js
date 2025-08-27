@@ -18,17 +18,26 @@ const Home = () => {
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
                     <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
                         <div className="col-span-1 md:col-span-4">
-                            <h1 className="text-5xl font-semibold">Hello!</h1>
-                            <p className="text-lg md:text-xl text-gray-800 mt-6">
+                            <div className="flex items-center gap-4">
+                                <h1 className="grow text-5xl font-semibold">Hello!</h1>
+                                <div className="sm:hidden block ml-auto">
+                                    <img
+                                    src="/avatar_michael.jpg" alt="Michael's Avatar"
+                                    width="75" height="75" className="rounded-lg"
+                                    // style={{borderRadius: "50%"}} 
+                                    />
+                                </div>
+                            </div>
+                            <p className="text-md md:text-xl text-gray-800 sm:mt-6 mt-2">
                                 I'm Michael Chen, an incoming undergraduate at UC San Diego.
                                 Working on ML research at Stanford and Nanyang Technological University.
                             </p>
 
-                            <div className="mt-6">
+                            <div className="sm:mt-6 mt-4">
                                 <BioLinks />
                             </div>
                         </div>
-                        <div className="col-span-1 md:col-span-2 mx-auto">
+                        <div className="sm:block hidden col-span-1 md:col-span-2 mx-auto">
                             <img src="/avatar_michael.jpg" alt="Michael's Avatar" width="220" height="300" style={{borderRadius: "50%"}}
                             />
                         </div>

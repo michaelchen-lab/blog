@@ -64,7 +64,7 @@ const Publications = () => {
                                 image="dss-paper.jpg"
                                 title="A Field Study on the Impact of the Counter Ad-Blocking Wall Strategy on User Engagement"
                                 authors={<><span className='font-semibold'>Michael K. Chen</span>, Shuai Zhao, Christian Borcea, Yi Chen</>}
-                                venue="Under Review at Decision Support Systems"
+                                venue="Decision Support Systems (In Press)"
                                 links={[
                                     { label: "Blog Post", href: "/blog/why-adblocking-is-so-problematic" },
                                 ]}
