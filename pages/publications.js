@@ -10,11 +10,11 @@ const Publications = () => {
             </Head>
             <main>
                 <div className="container mx-auto max-w-5xl mt-10 px-4">
-                    <h1 className="font-serif text-5xl font-semibold">Publications</h1>
+                    <h1 className="font-serif text-3xl sm:text-5xl font-semibold">Publications</h1>
                     <p className='text-sm italic'>*Equal contribution</p>
                     <p className='mt-4'>My current research focus is in machine learning, and more specifically, language models. Previously, I worked in management information systems, with a focus on causal inference for online experimentation.</p>
                     <section className="mt-8">
-                        <h1 className="text-2xl font-semibold mb-4">Machine Learning</h1>
+                        <h1 className="text-xl sm:text-2xl font-semibold mb-4">Machine Learning</h1>
                         <div class="grid sm:grid-cols-4 grid-cols-1 gap-6">
                             <PaperCard
                                 image="caft.png"

@@ -39,11 +39,11 @@ const SectionTitle = ({ to, name }) => {
     if (to) {
         return (
             <Link href={to}>
-                <h2 className="text-3xl font-semibold pb-4 cursor-pointer">{name}</h2>
+                <h2 className="text-2xl sm:text-3xl font-semibold pb-4 cursor-pointer">{name}</h2>
             </Link>
         )
     } else {
-        return <h2 className="text-3xl font-semibold pb-4">{name}</h2>
+        return <h2 className="text-2xl sm:text-3xl font-semibold pb-4">{name}</h2>
     }
 
 }
@@ -73,10 +73,19 @@ const BioLinks = () => {
                     href="https://www.linkedin.com/in/michael-chen-kj/"
                 >
                     <img className="h-6 mr-2" src="/linkedin-icon.svg" alt="linkedin" width="25" height="25"/>
-                    <span>LinkedIn</span>
+                    <span className="text-sm">LinkedIn</span>
                 </a>
             </div>
             <div className="mr-6">
+                <a
+                    className="flex items-center text-gray-600 font-semibold"
+                    href="https://scholar.google.com/citations?user=iUDekfcAAAAJ&hl=en"
+                >
+                    <img className="h-6 mr-2" src="/google-scholar-icon.svg" alt="github" width="25" height="25"/>
+                    <span className="text-sm">Scholar</span>
+                </a>
+            </div>
+            {/* <div className="mr-6">
                 <a
                     className="flex items-center text-gray-600 font-semibold"
                     href="https://github.com/michaelchen-lab"
@@ -84,7 +93,7 @@ const BioLinks = () => {
                     <img className="h-6 mr-2" src="/github-icon.svg" alt="github" width="25" height="25"/>
                     <span>Github</span>
                 </a>
-            </div>
+            </div> */}
             <div>
                 { (isMobile) ? (
                     <a
@@ -92,7 +101,7 @@ const BioLinks = () => {
                         href="resume.pdf" download
                     >
                         <img className="h-6 mr-2" src="/resume-icon.svg" alt="linkedin" width="25" height="25"/>
-                        <span>Resume</span>
+                        <span className="text-sm">Resume</span>
                     </a>
                 ) : (
                     <Link href="/resume">
@@ -100,7 +109,7 @@ const BioLinks = () => {
                             className="flex items-center text-gray-600 font-semibold"
                         >
                             <img className="h-6 mr-2" src="/resume-icon.svg" alt="linkedin" width="25" height="25"/>
-                            <span>Resume</span>
+                            <span className="text-sm">Resume</span>
                         </div>
                     </Link>
                 )}

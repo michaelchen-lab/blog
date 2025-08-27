@@ -13,13 +13,13 @@ const Blog = ({ allPostsData }) => {
             </Head>
             <main>
                 <div className="container mx-auto max-w-3xl mt-10 px-4">
-                    <h1 className="font-serif text-5xl mb-8 font-semibold">Blog</h1>
+                    <h1 className="font-serif text-3xl sm:text-5xl mb-8 font-semibold">Blog</h1>
                     {allPostsData.map(({ id, date, title, description }) => (
                         <div className="mb-8" key={id}>
                             <Link href={`/blog/${id}`}>
                                 <div className="cursor-pointer">
-                                    <h2 className="text-2xl font-semibold cursor-pointer">{title}</h2>
-                                    <p className="text-lg text-base leading-normal text-gray-600 mt-2">{description}</p>
+                                    <h2 className="text-lg sm:text-2xl font-semibold cursor-pointer">{title}</h2>
+                                    <p className="text-md sm:text-lg text-base leading-normal text-gray-600 mt-2">{description}</p>
                                 </div>
                             </Link>
                         </div>

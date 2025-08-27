@@ -10,7 +10,7 @@ const Home = () => {
                 <title>Michael Chen</title>
 
                 <meta property="og:title" content="Michael Chen" />
-                <meta property="og:description" content="I'm a high school student from Singapore, who is passionate about solving problems using software development and data science." />
+                <meta property="og:description" content="I'm Michael Chen, an incoming freshman at UC San Diego. Working on ML research at Stanford and Nanyang Technological University." />
                 <meta property="og:url" content="michaelchen.io" />
             </Head>
 
@@ -28,8 +28,8 @@ const Home = () => {
                                     />
                                 </div>
                             </div>
-                            <p className="text-md md:text-xl text-gray-800 sm:mt-6 mt-2">
-                                I'm Michael Chen, an incoming undergraduate at UC San Diego.
+                            <p className="text-md md:text-xl sm:mt-6 mt-2">
+                                I'm Michael Chen, an incoming freshman at UC San Diego.
                                 Working on ML research at Stanford and Nanyang Technological University.
                             </p>
 
