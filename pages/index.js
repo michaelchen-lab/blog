@@ -29,8 +29,8 @@ const Home = () => {
                                 </div>
                             </div>
                             <p className="text-md md:text-xl sm:mt-6 mt-2">
-                                I'm Michael Chen, an incoming freshman at UC San Diego.
-                                Working on ML research at Stanford and Nanyang Technological University.
+                                I'm Michael Chen, a freshman at UC San Diego.
+                                Working on ML research at Nanyang Technological University and New Jersey Institute of Technology, and previously at Stanford University.
                             </p>
 
                             <div className="sm:mt-6 mt-4">
@@ -45,8 +45,7 @@ const Home = () => {
                         <Section>
                             <SectionTitle to="/projects" name="Research" />
                             <SectionDescription>
-                                I am working on Large Language Models (LLM), especially in reasoning and novel architecture designs. I also work on causal inference in 
-                                management information systems. More details <TextLink to="/publications">here</TextLink>.
+                                I am working on novel data-efficient training methods and architectures for Large Language Models (LLM). I am also studying on the effects of AI chatbots on web search and content discovery. More details <TextLink to="/publications">here</TextLink>.
                             </SectionDescription>
                         </Section>
                         <Section>
